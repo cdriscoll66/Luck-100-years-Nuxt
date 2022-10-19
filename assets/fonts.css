@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Professor";
+    src: url("/fonts/professor.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "GothamHTF";
+    src: url("/fonts/GothamHTF-Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "GothamHTF";
+    src: url("/fonts/GothamHTF-Book.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "GothamHTF";
+    src: url("/fonts/GothamHTF-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "GothamHTF";
+    src: url("/fonts/GothamHTF-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-LightItalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-Book.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Wayfinder";
+    src: url("/fonts/Wayfinder-Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }

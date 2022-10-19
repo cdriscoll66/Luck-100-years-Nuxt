@@ -1,0 +1,57 @@
+@import "./fonts.css";
+@import "./base.css";
+
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-green);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--color-green-dark);
+
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.link-button__wrapper {
+  margin-top: 30px;
+}
+
+.link-button {
+  font-family: 'GothamHTF', sans-serif;
+  font-size: .75rem;
+  letter-spacing: .2em;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--color-green);
+  text-decoration: none;
+  border: 1px solid var(--color-bronze);
+  padding: 12px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-button:hover {
+  color: var(--color-white);
+  background-color: var(--color-gray);
+}
+
+.link-button:after {
+  content: '';
+  height: 12px;
+  width: 20px;
+  display: inline-block;
+  margin-left: 12px;
+  background-image: url('@/assets/images/arrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
