@@ -5,7 +5,7 @@
 <template>
 <div class="wrapper">
     <div>
-        <h1>Story 1</h1>
+        <h1>Story Home</h1>
     </div>
     <div>
         <h1>Story 1</h1>

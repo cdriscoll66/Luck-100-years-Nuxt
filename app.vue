@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { modalStore } from '~/stores/ModalStore'
 
+const store = modalStore();
 const route = useRoute()
 
 const headerClass = computed(() => {
@@ -34,7 +36,9 @@ const headerClass = computed(() => {
   </header>
 
   <NuxtPage/>
-
+  <Transition>
+  <Modal v-if="store.showmodal"/>
+  </Transition>
 </template>
 
 <style lang="scss" scoped>
@@ -86,12 +90,12 @@ nav a.router-link-active:before {
   position: absolute;
   top: 6px;
   left: -25px;
-  background-image: url('@/assets/images/arrow.svg');
+  background-image: url('~/assets/images/arrow.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-/* 
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
@@ -100,6 +104,6 @@ nav a.router-link-active:before {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
-} */
+}
 
 </style>
