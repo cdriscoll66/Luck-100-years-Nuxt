@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { disablePageScroll, enablePageScroll } from 'scroll-lock'
-
+// import { disablePageScroll, enablePageScroll } from 'scroll-lock'
 import NineteenTwenty from '../components/slidepages/1920.vue';
 import NinteenThirty from '../components/slidepages//1930.vue';
 import NinteenFourty from '../components/slidepages/1940.vue';
@@ -13,6 +12,7 @@ import TwoThousand from '../components/slidepages/2000.vue';
 import TwoThousandTen from '../components/slidepages/2010.vue';
 import TwoThousandTwenty from '../components/slidepages/2020.vue';
 
+const { disablePageScroll, enablePageScroll} = require('scroll-lock');
 
 const state = reactive({
   showIntro: true,
