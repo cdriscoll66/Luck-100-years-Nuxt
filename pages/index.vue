@@ -11,7 +11,7 @@
         <PresidentMessage />
         <TimelineHomeBlock />
         <WideQuote quote="We will ignite human potential through Values Based Leadership and positively impact the lives of others around the world." />
-        <YourStories />
+        <YourStoriesHomeBlock />
         <HundredLogoGraphic />
       </div>
       <Footer />
