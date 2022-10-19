@@ -22,9 +22,10 @@
     display: flex;
     width: 100%;
     max-width: calc(100vw - 110px);
-    margin: 0 auto 10px;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .footer-links {
