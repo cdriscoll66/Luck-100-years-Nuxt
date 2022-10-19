@@ -1,8 +1,9 @@
 <script setup lang="ts">
 
 import { onBeforeRouteLeave } from 'vue-router'
-const { enablePageScroll} = require('scroll-lock');
 
+import pkg from 'scroll-lock/dist/scroll-lock.js';
+const { enablePageScroll } = pkg;
 
 const props = defineProps({
   slides: {
