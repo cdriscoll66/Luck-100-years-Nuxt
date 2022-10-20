@@ -1,0 +1,38 @@
+[
+    {
+       "title":"VA Tech",
+       "type":"watch",
+       "image":"va-tech.jpg",
+       "subtitle":"Sem Sollicitudin Euismod",
+       "tagline":"Lorem Ipsum Dolor",
+       "link":"/stories/va-tech",
+       "cardtype":"full"
+    },
+    {
+       "title":"VA Tech2",
+       "type":"watch",
+       "image":"va-tech.jpg",
+       "subtitle":"Sem Sollicitudin Euismod",
+       "tagline":"Lorem Ipsum Dolor",
+       "link":"/stories/va-tech",
+       "cardtype":"full"
+    },
+    {
+       "title":"VA Tech2",
+       "type":"watch",
+       "image":"va-tech.jpg",
+       "subtitle":"Sem Sollicitudin Euismod",
+       "tagline":"Lorem Ipsum Dolor",
+       "link":"/stories/va-tech",
+       "cardtype":"textmedia"
+    },
+    {
+       "title":"VA Tech2",
+       "type":"watch",
+       "image":"va-tech.jpg",
+       "subtitle":"Sem Sollicitudin Euismod",
+       "tagline":"Lorem Ipsum Dolor",
+       "link":"/stories/va-tech",
+       "cardtype":"smallshadowright"
+    }
+ ]
