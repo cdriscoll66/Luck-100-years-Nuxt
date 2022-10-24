@@ -31,7 +31,8 @@ onMounted(() => {
         <video id="vid" ref="vid" controls autoplay preload="auto">
         <source :src='store.medialink' type="video/mp4">
             Your browser does not support the video tag.
-        </video>    </div>
+        </video>    
+      </div>
   </div>
 </template>
 
