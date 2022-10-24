@@ -36,18 +36,20 @@
     }
 }
 
-
 h1 {
     font-family:'Sentinel', serif;
     font-size: 4.5rem;
     font-weight: 300;
     font-style: italic;
     line-height: 1;
+    color: var(--color-white);
 }
 
 h3 {
     font-size: 1rem;
     line-height: 1.625;
     font-weight: 200;
+    color: var(--color-white);
+
 }
 </style>

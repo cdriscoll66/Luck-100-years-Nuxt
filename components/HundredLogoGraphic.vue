@@ -108,6 +108,12 @@ p {
   font-weight: 300;
 }
 
+h4 {
+  color: var(--color-gray);
+  font-family: 'GothamHTF', sans-serif;
+  font-weight: 400;
+}
+
 .hundred-graphic__blocks {
     display: flex;
     flex-flow: column nowrap;

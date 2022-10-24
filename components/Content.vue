@@ -84,6 +84,7 @@ h2.title {
 
 h4.subtitle {
   font-family: 'GothamHTF', sans-serif;
+  color: var(--color-gray);
   font-size: 1.25rem;
   line-height: 1.3333;
   font-weight: 300;
