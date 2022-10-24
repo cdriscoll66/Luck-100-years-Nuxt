@@ -80,6 +80,11 @@ a.titlelink {
         font-style: italic;
         font-size: 3rem;
         line-height: 1.1666666666666667;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: var(--color-green-dark);
+        }
     }
     &:after {
         content: "";
@@ -90,6 +95,10 @@ a.titlelink {
         background-image: url("/images/arrow.svg");
         background-repeat: no-repeat;
         background-size: contain;
+        transition: margin-left 0.2s ease-in-out;
+    }
+    &:hover:after {
+      margin-left:20px;      
     }
 }
 

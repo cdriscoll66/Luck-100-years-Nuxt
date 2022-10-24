@@ -55,13 +55,14 @@ const bgImage = computed(() => {
 
 <style lang="scss" scoped>
 .largecard {
-  margin-top: 56px;
+  margin: 126px 0;
   width: 100%;
   height: auto;
   background-size: cover;
   background-position: center;
   padding: 35% 72px 72px 72px;
   color: var(--color-white);
+  box-shadow: 10px 14px 44px rgba(0, 0, 0, 0.15);
 }
 
 .eyebrow {

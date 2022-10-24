@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+
 </script>
 
 
@@ -14,7 +15,6 @@
         <YourStoriesHomeBlock />
         <HundredLogoGraphic />
       </div>
-      <Footer />
     </main>
   </template>
   
@@ -28,6 +28,6 @@
     main {
       background-image: url('/images/home-page/home-topography-bg-r.png'), url('/images/home-page/home-topography-bg.png'), url('/images/home-page/home-rock-gold2.png');
       background-repeat: no-repeat;
-      background-position: 100% 2150px, 0 2400px, 100% 3200px;
+      background-position: 100% 63%, 0 84%, 100% 99%;
     }
   </style>

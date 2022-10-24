@@ -83,26 +83,35 @@
    {
       "title":"Austin Powder",
       "type":"watch",
-      "image":"va-tech.jpg",
+      "image":"AustinPowder.jpg",
       "subtitle":"Sem Sollicitudin Euismod",
       "tagline":"Lorem Ipsum Dolor",
       "link":"austin-powder",
       "cardtype":"full"
    },
    {
-      "title":"Austin Powder",
-      "type":"watch",
-      "subtitle":"Sem Sollicitudin Euismod",
-      "tagline":"Lorem Ipsum Dolor",
-      "link":"austin-powder",
-      "cardtype":"full"
+      "title":"Vernon Perdue",
+      "type":"read",
+      "subtitle":"Senior Project Manager",
+      "tagline":"FAM Construction",
+      "link":"vernon-perdue",
+      "cardtype":"smallshadowright"
    },
    {
-      "title":"Austin Powder",
+      "title":"Ed Stelter",
+      "type":"read",
+      "subtitle":"Vice President, Procurement",
+      "tagline":"Faulconer Construction",
+      "link":"ed-stelter",
+      "cardtype":"smallshadowleft"
+   },
+   {
+      "title":"Superior",
       "type":"watch",
+      "image":"Superior.jpg",
       "subtitle":"Sem Sollicitudin Euismod",
       "tagline":"Lorem Ipsum Dolor",
-      "link":"austin-powder",
+      "link":"superior",
       "cardtype":"full"
    }
  ]

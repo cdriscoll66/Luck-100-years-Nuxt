@@ -240,7 +240,7 @@ const startTheShow = () => {
 
 
           <a
-            v-show="!state.activeSlide"
+            v-show="state.activeSlide === null"
             @click.prevent="showCase(index)"
             class="slideclick"
           ></a>

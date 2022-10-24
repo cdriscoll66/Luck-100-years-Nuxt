@@ -14,6 +14,8 @@ const headerClass = computed(() => {
   }
 })
 
+
+
 </script>
 
 
@@ -36,9 +38,12 @@ const headerClass = computed(() => {
   </header>
 
   <NuxtPage/>
-  <Transition>
+  
+<Transition>
   <Modal v-if="store.showmodal"/>
   </Transition>
+  <Footer />
+
 </template>
 
 <style lang="scss" scoped>
