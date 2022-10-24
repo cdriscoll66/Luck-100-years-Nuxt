@@ -19,6 +19,7 @@
       </div>
 
     <NuxtPage></NuxtPage>
+  <PrefooterCta />
   </div>
 </template>
 
