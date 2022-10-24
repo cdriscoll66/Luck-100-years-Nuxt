@@ -3,10 +3,10 @@
 </script>
 
 <template>
-<div>
-    <h1>Story 1</h1>
-</div>
-    </template> 
+    <div>
+        <h1>Michelle Trudeau</h1>
+    </div>
+</template> 
 
     <style lang="scss" scoped>
 

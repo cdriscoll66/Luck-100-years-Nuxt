@@ -5,34 +5,104 @@
        "image":"va-tech.jpg",
        "subtitle":"Sem Sollicitudin Euismod",
        "tagline":"Lorem Ipsum Dolor",
-       "link":"/stories/va-tech",
+       "link":"va-tech",
        "cardtype":"full"
     },
     {
-       "title":"VA Tech2",
-       "type":"watch",
-       "image":"va-tech.jpg",
-       "subtitle":"Sem Sollicitudin Euismod",
-       "tagline":"Lorem Ipsum Dolor",
-       "link":"/stories/va-tech",
-       "cardtype":"full"
-    },
-    {
-       "title":"VA Tech2",
-       "type":"watch",
-       "image":"va-tech.jpg",
-       "subtitle":"Sem Sollicitudin Euismod",
-       "tagline":"Lorem Ipsum Dolor",
-       "link":"/stories/va-tech",
+       "title":"Scott Claud",
+       "type":"read",
+       "image":"ScottClaud.jpg",
+       "subtitle":"President",
+       "tagline":"Colony Construction",
+       "link":"scott-claud",
        "cardtype":"textmedia"
     },
     {
-       "title":"VA Tech2",
-       "type":"watch",
-       "image":"va-tech.jpg",
-       "subtitle":"Sem Sollicitudin Euismod",
-       "tagline":"Lorem Ipsum Dolor",
-       "link":"/stories/va-tech",
-       "cardtype":"smallshadowright"
-    }
+       "title":"Aubrey Witt",
+       "type":"listen",
+       "image":"aubryWitt.png",
+       "subtitle":"Retiree",
+       "tagline":"34 Years of Service",
+       "link":"aubrey-witt",
+       "cardtype":"profileimagecenter"
+    },
+    {
+       "title":"Bill Scharr",
+       "type":"listen",
+       "image":"BillSharr.png",
+       "subtitle":"Retireee",
+       "tagline":"17 years of service",
+       "link":"bill-scharr",
+       "cardtype":"profileimageleft"
+    },
+    {
+      "title":"Michelle Trudeau",
+      "type":"listen",
+      "image":"MichelleTrudeau.png",
+      "subtitle":"Retiree",
+      "tagline":"7 Years of Service",
+      "link":"michelle-trudeau",
+      "cardtype":"profileimagecenter"
+   },
+   {
+      "title":"Goochland Fire",
+      "type":"watch",
+      "image":"GoochlandFire.jpg",
+      "subtitle":"Sem Sollicitudin Euismod",
+      "tagline":"Lorem Ipsum Dolor",
+      "link":"goochland-fire",
+      "cardtype":"full"
+   },
+   {
+      "title":"Jeff Wansley",
+      "type":"read",
+      "image":"jeffWansley.jpg",
+      "subtitle":"Executive Director",
+      "tagline":"Georgia Construction Aggregates Association",
+      "link":"jeff-wansley",
+      "cardtype":"textmedia"
+   },
+   {
+      "title":"Conrad Feggins",
+      "type":"listen",
+      "image":"conradFeggins.png",
+      "subtitle":"Retiree",
+      "tagline":"21 Years of Service",
+      "link":"conrad-feggins",
+      "cardtype":"profileimagecenter"
+   },
+   {
+      "title":"Tom Williams",
+      "type":"listen",
+      "image":"tomWilliams.png",
+      "subtitle":"Retiree",
+      "tagline":"19 years of service",
+      "link":"tom-williams",
+      "cardtype":"profileimageleft"
+   },
+   {
+      "title":"Austin Powder",
+      "type":"watch",
+      "image":"va-tech.jpg",
+      "subtitle":"Sem Sollicitudin Euismod",
+      "tagline":"Lorem Ipsum Dolor",
+      "link":"austin-powder",
+      "cardtype":"full"
+   },
+   {
+      "title":"Austin Powder",
+      "type":"watch",
+      "subtitle":"Sem Sollicitudin Euismod",
+      "tagline":"Lorem Ipsum Dolor",
+      "link":"austin-powder",
+      "cardtype":"full"
+   },
+   {
+      "title":"Austin Powder",
+      "type":"watch",
+      "subtitle":"Sem Sollicitudin Euismod",
+      "tagline":"Lorem Ipsum Dolor",
+      "link":"austin-powder",
+      "cardtype":"full"
+   }
  ]
