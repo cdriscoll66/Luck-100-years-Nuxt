@@ -55,3 +55,10 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sentinel', sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--color-green);
+}
