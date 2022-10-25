@@ -200,6 +200,16 @@ a.titlelink {
   margin-bottom: 100px;
   gap: 80px;
 }
+
+.title-block__text {
+  h1 {
+    font-style: italic;
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1.07;
+  }
+}
+
 .pagination-links {
   display: flex;
   justify-content: space-between;
@@ -222,6 +232,17 @@ a.titlelink {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   background-color: var(--color-off-white);
+  &:after {
+  content: '';
+  height: 12px;
+  width: 20px;
+  display: inline-block;
+  margin-left: 12px;
+  background-image: url('@/assets/images/arrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 }
 
 .pagination-links a.next:hover,
