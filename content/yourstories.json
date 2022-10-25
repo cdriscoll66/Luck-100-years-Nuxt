@@ -1,117 +1,127 @@
 [
-    {
-       "title":"VA Tech",
-       "type":"watch",
-       "image":"va-tech.jpg",
-       "subtitle":"Sem Sollicitudin Euismod",
-       "tagline":"Lorem Ipsum Dolor",
-       "link":"va-tech",
-       "cardtype":"full"
-    },
-    {
-       "title":"Scott Claud",
-       "type":"read",
-       "image":"ScottClaud.jpg",
-       "subtitle":"President",
-       "tagline":"Colony Construction",
-       "link":"scott-claud",
-       "cardtype":"textmedia"
-    },
-    {
-       "title":"Aubrey Witt",
-       "type":"listen",
-       "image":"aubryWitt.png",
-       "subtitle":"Retiree",
-       "tagline":"34 Years of Service",
-       "link":"aubrey-witt",
-       "cardtype":"profileimagecenter"
-    },
-    {
-       "title":"Bill Scharr",
-       "type":"listen",
-       "image":"BillSharr.png",
-       "subtitle":"Retireee",
-       "tagline":"17 years of service",
-       "link":"bill-scharr",
-       "cardtype":"profileimageleft"
-    },
-    {
-      "title":"Michelle Trudeau",
-      "type":"listen",
-      "image":"MichelleTrudeau.png",
-      "subtitle":"Retiree",
-      "tagline":"7 Years of Service",
-      "link":"michelle-trudeau",
-      "cardtype":"profileimagecenter"
-   },
-   {
-      "title":"Goochland Fire",
-      "type":"watch",
-      "image":"GoochlandFire.jpg",
-      "subtitle":"Sem Sollicitudin Euismod",
-      "tagline":"Lorem Ipsum Dolor",
-      "link":"goochland-fire",
-      "cardtype":"full"
-   },
-   {
-      "title":"Jeff Wansley",
-      "type":"read",
-      "image":"jeffWansley.jpg",
-      "subtitle":"Executive Director",
-      "tagline":"Georgia Construction Aggregates Association",
-      "link":"jeff-wansley",
-      "cardtype":"textmedia"
-   },
-   {
-      "title":"Conrad Feggins",
-      "type":"listen",
-      "image":"conradFeggins.png",
-      "subtitle":"Retiree",
-      "tagline":"21 Years of Service",
-      "link":"conrad-feggins",
-      "cardtype":"profileimagecenter"
-   },
-   {
-      "title":"Tom Williams",
-      "type":"listen",
-      "image":"tomWilliams.png",
-      "subtitle":"Retiree",
-      "tagline":"19 years of service",
-      "link":"tom-williams",
-      "cardtype":"profileimageleft"
-   },
-   {
-      "title":"Austin Powder",
-      "type":"watch",
-      "image":"AustinPowder.jpg",
-      "subtitle":"Sem Sollicitudin Euismod",
-      "tagline":"Lorem Ipsum Dolor",
-      "link":"austin-powder",
-      "cardtype":"full"
-   },
-   {
-      "title":"Vernon Perdue",
-      "type":"read",
-      "subtitle":"Senior Project Manager",
-      "tagline":"FAM Construction",
-      "link":"vernon-perdue",
-      "cardtype":"smallshadowright"
-   },
-   {
-      "title":"Ed Stelter",
-      "type":"read",
-      "subtitle":"Vice President, Procurement",
-      "tagline":"Faulconer Construction",
-      "link":"ed-stelter",
-      "cardtype":"smallshadowleft"
-   },
-   {
-      "title":"Superior",
-      "type":"watch",
-      "image":"Superior.jpg",
-      "subtitle":"Sem Sollicitudin Euismod",
-      "tagline":"Lorem Ipsum Dolor",
-      "link":"superior",
-      "cardtype":"full"
-   }
- ]
+  {
+    "id": "va-tech",
+    "title": "VA Tech",
+    "type": "watch",
+    "image": "va-tech.jpg",
+    "subtitle": "Sem Sollicitudin Euismod",
+    "tagline": "Lorem Ipsum Dolor",
+    "link": "va-tech",
+    "cardtype": "full"
+  },
+  {
+    "id": "scott-claud",
+    "title": "Scott Claud",
+    "type": "read",
+    "image": "ScottClaud.jpg",
+    "subtitle": "President",
+    "tagline": "Colony Construction",
+    "link": "scott-claud",
+    "cardtype": "textmedia"
+  },
+  {
+    "id": "aubrey-witt",
+    "title": "Aubrey Witt",
+    "type": "listen",
+    "image": "aubryWitt.png",
+    "subtitle": "Retiree",
+    "tagline": "34 Years of Service",
+    "link": "aubrey-witt",
+    "cardtype": "profileimagecenter"
+  },
+  {
+    "id": "bill-scharr",
+    "title": "Bill Scharr",
+    "type": "listen",
+    "image": "BillSharr.png",
+    "subtitle": "Retireee",
+    "tagline": "17 years of service",
+    "link": "bill-scharr",
+    "cardtype": "profileimageleft"
+  },
+  {
+    "id": "michelle-trudeau",
+    "title": "Michelle Trudeau",
+    "type": "listen",
+    "image": "MichelleTrudeau.png",
+    "subtitle": "Retiree",
+    "tagline": "7 Years of Service",
+    "link": "michelle-trudeau",
+    "cardtype": "profileimagecenter"
+  },
+  {
+    "title": "Goochland Fire",
+    "type": "watch",
+    "image": "GoochlandFire.jpg",
+    "subtitle": "Sem Sollicitudin Euismod",
+    "tagline": "Lorem Ipsum Dolor",
+    "link": "goochland-fire",
+    "cardtype": "full"
+  },
+  {
+    "title": "Jeff Wansley",
+    "type": "read",
+    "image": "jeffWansley.jpg",
+    "subtitle": "Executive Director",
+    "tagline": "Georgia Construction Aggregates Association",
+    "link": "jeff-wansley",
+    "cardtype": "textmedia"
+  },
+  {
+    "title": "Conrad Feggins",
+    "type": "listen",
+    "image": "conradFeggins.png",
+    "subtitle": "Retiree",
+    "tagline": "21 Years of Service",
+    "link": "conrad-feggins",
+    "cardtype": "profileimagecenter"
+  },
+  {
+    "id": "tom-williams",
+    "title": "Tom Williams",
+    "type": "listen",
+    "image": "tomWilliams.png",
+    "subtitle": "Retiree",
+    "tagline": "19 years of service",
+    "link": "tom-williams",
+    "cardtype": "profileimageleft"
+  },
+  {
+    "id": "austin-powder",
+    "title": "Austin Powder",
+    "type": "watch",
+    "image": "AustinPowder.jpg",
+    "subtitle": "Sem Sollicitudin Euismod",
+    "tagline": "Lorem Ipsum Dolor",
+    "link": "austin-powder",
+    "cardtype": "full"
+  },
+  {
+    "id": "vernon-perdue",
+    "title": "Vernon Perdue",
+    "type": "read",
+    "subtitle": "Senior Project Manager",
+    "tagline": "FAM Construction",
+    "link": "vernon-perdue",
+    "cardtype": "smallshadowright"
+  },
+  {
+    "id": "ed-stelter",
+    "title": "Ed Stelter",
+    "type": "read",
+    "subtitle": "Vice President, Procurement",
+    "tagline": "Faulconer Construction",
+    "link": "ed-stelter",
+    "cardtype": "smallshadowleft"
+  },
+  {
+    "id": "superior",
+    "title": "Superior",
+    "type": "watch",
+    "image": "Superior.jpg",
+    "subtitle": "Sem Sollicitudin Euismod",
+    "tagline": "Lorem Ipsum Dolor",
+    "link": "superior",
+    "cardtype": "full"
+  }
+]
