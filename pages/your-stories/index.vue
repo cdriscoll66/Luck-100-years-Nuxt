@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import yourstories from '~/content/yourstories.json'
 
- import yourstories from '~/content/yourstories.json'
+
 </script>
 
 <template>
@@ -18,7 +19,7 @@
         </div>
       </div>
 
-    <NuxtPage></NuxtPage>
+    <NuxtPage />
   <PrefooterCta />
   </div>
 </template>

@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+
+</script>
 
 <template>
     <div class="story-wrapper">
@@ -23,51 +26,10 @@
       </video>
     </div>
 
+
     <div class="story__content">
-      <p>
-        Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur
-        magna mollis euismod. Non equidem invideo, miror magis posuere velit
-        aliquet. Contra legem facit qui id facit quod lex prohibet.
-      </p>
-      <p>
-        Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus
-        multa iter quae et nos invenerat. Quis aute iure reprehenderit in
-        voluptate velit esse.
-      </p>
-      <p>
-        Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis
-        possit intrepidus aestimare tellus. Curabitur blandit tempus ardua
-        ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation.
-        Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est
-        sed immemorabili.
-      </p>
-      <p>
-        Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque
-        penatibus et magnis dis parturient. Mercedem aut nummos unde unde
-        extricat, amaras.
-      </p>
-      <p>
-        Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur
-        magna mollis euismod. Non equidem invideo, miror magis posuere velit
-        aliquet. Contra legem facit qui id facit quod lex prohibet.
-      </p>
-      <p>
-        Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus
-        multa iter quae et nos invenerat. Quis aute iure reprehenderit in
-        voluptate velit esse.
-      </p>
-      <p>
-        Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis
-        possit intrepidus aestimare tellus. Curabitur blandit tempus ardua
-        ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation.
-        Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est
-        sed immemorabili.
-      </p>
-      <p>
-        Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque
-        penatibus et magnis dis parturient. Mercedem aut nummos unde unde
-        extricat, amaras.
-      </p>
+   <p>Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.</p>    <p>Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.</p>    <p>Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.</p>    <p>Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.</p>    <p>Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.</p>    <p>Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.</p>    <p>Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.</p>    <p>Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.</p> ",
+
     </div>
 
     <PrefooterCta />
@@ -77,7 +39,7 @@
       <NuxtLink to="/your-stories" class="prev">
         <span>Back To All Stories</span>
       </NuxtLink>
-      <NuxtLink class="next">
+      <NuxtLink class="next" to="yourstories/scott-claud">
         <span>Next Story</span>
       </NuxtLink>
     </div>
@@ -116,6 +78,16 @@ p {
   max-width: 960px;
   margin: 0 auto;
 }
+
+.title-block__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 80px;
+}
 .pagination-links {
   display: flex;
   justify-content: space-between;
@@ -143,5 +115,15 @@ p {
 .pagination-links a.next:hover,
 .pagination-links a.prev:hover {
   background-color: var(--color-gold-light);
+}
+</style>
+
+<style>
+.story__content p {
+    margin-top: 26px;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.62;
+    color: #595959;
 }
 </style>
