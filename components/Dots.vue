@@ -32,7 +32,7 @@ const activeDot: any = computed(() => {
 
 <template>
   <div class="nav-bar-container">
-    <NuxtLink to="/">
+    <NuxtLink class="tohome" to="/">
       <img class="luck-logo" src="~/assets/images/logo.svg"  alt="Luck Logo" />
     </NuxtLink>
     <ul class="dotnav">
@@ -69,6 +69,14 @@ ul.dotnav {
     display: flex;
   }
 }
+
+.tohome {
+  display:none;
+  @media (min-width: 1120px) {
+    display: flex;
+  }
+}
+
 
 ul.dotnav li button {
   display: flex;

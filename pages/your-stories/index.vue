@@ -3,72 +3,74 @@ import yourstories from '~/content/yourstories.json'
 </script>
 
 <template>
-  <div class="wrapper">
-    <YourStoriesHero />
-    <div class="yourstories__archive">
-      <div
-        v-for="(story, key) in yourstories"
-        class="yourstories__card"
-        :key="key"
-      >
-        <CardsLargeCard
-          v-if="story.cardtype === 'full'"
-          :title="story.title"
-          :type="story.type"
-          :image="story.image"
-          :subtitle="story.subtitle"
-          :tagline="story.tagline"
-          :link="story.link"
-        />
-        <CardsTextMediaCard
-          v-else-if="story.cardtype === 'textmedia'"
-          :title="story.title"
-          :type="story.type"
-          :image="story.image"
-          :subtitle="story.subtitle"
-          :tagline="story.tagline"
-          :link="story.link"
-        />
-        <CardsProfileImageCenterCard
-          v-else-if="story.cardtype === 'profileimagecenter'"
-          :title="story.title"
-          :type="story.type"
-          :image="story.image"
-          :subtitle="story.subtitle"
-          :tagline="story.tagline"
-          :link="story.link"
-        />
-        <CardsProfileImageLeftCard
-          v-else-if="story.cardtype === 'profileimageleft'"
-          :title="story.title"
-          :type="story.type"
-          :image="story.image"
-          :subtitle="story.subtitle"
-          :tagline="story.tagline"
-          :link="story.link"
-        />
-        <CardsSmallShadowLeftCard
-          v-else-if="story.cardtype === 'smallshadowleft'"
-          :title="story.title"
-          :type="story.type"
-          :subtitle="story.subtitle"
-          :tagline="story.tagline"
-          :link="story.link"
-        />
-        <CardsSmallShadowRightCard
-          v-else-if="story.cardtype === 'smallshadowright'"
-          :title="story.title"
-          :type="story.type"
-          :subtitle="story.subtitle"
-          :tagline="story.tagline"
-          :link="story.link"
-        />
-        <div v-else>{{ story.title }}</div>
+  <div class="bg-wrapper">
+    <div class="wrapper">
+      <YourStoriesHero />
+      <div class="yourstories__archive">
+        <div
+          v-for="(story, key) in yourstories"
+          class="yourstories__card"
+          :key="key"
+        >
+          <CardsLargeCard
+            v-if="story.cardtype === 'full'"
+            :title="story.title"
+            :type="story.type"
+            :image="story.image"
+            :subtitle="story.subtitle"
+            :tagline="story.tagline"
+            :link="story.link"
+          />
+          <CardsTextMediaCard
+            v-else-if="story.cardtype === 'textmedia'"
+            :title="story.title"
+            :type="story.type"
+            :image="story.image"
+            :subtitle="story.subtitle"
+            :tagline="story.tagline"
+            :link="story.link"
+          />
+          <CardsProfileImageCenterCard
+            v-else-if="story.cardtype === 'profileimagecenter'"
+            :title="story.title"
+            :type="story.type"
+            :image="story.image"
+            :subtitle="story.subtitle"
+            :tagline="story.tagline"
+            :link="story.link"
+          />
+          <CardsProfileImageLeftCard
+            v-else-if="story.cardtype === 'profileimageleft'"
+            :title="story.title"
+            :type="story.type"
+            :image="story.image"
+            :subtitle="story.subtitle"
+            :tagline="story.tagline"
+            :link="story.link"
+          />
+          <CardsSmallShadowLeftCard
+            v-else-if="story.cardtype === 'smallshadowleft'"
+            :title="story.title"
+            :type="story.type"
+            :subtitle="story.subtitle"
+            :tagline="story.tagline"
+            :link="story.link"
+          />
+          <CardsSmallShadowRightCard
+            v-else-if="story.cardtype === 'smallshadowright'"
+            :title="story.title"
+            :type="story.type"
+            :subtitle="story.subtitle"
+            :tagline="story.tagline"
+            :link="story.link"
+          />
+          <div v-else>{{ story.title }}</div>
+        </div>
       </div>
-    </div>
 
-    <NuxtPage />
-    <PrefooterCta />
+      <NuxtPage />
+      <PrefooterCta />
+    </div>
   </div>
 </template>
 
@@ -78,6 +80,15 @@ import yourstories from '~/content/yourstories.json'
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
+}
+
+.bg-wrapper {
+  background-color: var(--color-off-white);
+  background-image: url('/images/topography-single.png'),
+    url('/images/topography-ys.png'), url('/images/prefooter1.png'),
+    url('/images/prefooter2.png');
+  background-repeat: no-repeat;
+  background-position: 100% 300px, 0 500px, 0 100%, 100% 100%;
 }
 
 .eyebrow {
@@ -160,13 +171,13 @@ a.titlelink {
     font-size: 1rem;
     line-height: 1.62;
     color: #595959;
-  &.statement {
-    font-family: 'Sentinel', serif;
-    font-size: 2rem;
-    line-height: 1.4375;
-    color: var(--color-gray);
-    font-style: italic;
-  }
+    &.statement {
+      font-family: 'Sentinel', serif;
+      font-size: 2rem;
+      line-height: 1.4375;
+      color: var(--color-gray);
+      font-style: italic;
+    }
   }
 }
 
@@ -175,14 +186,19 @@ a.titlelink {
   max-width: 920px;
 }
 
-
-
 .story {
   min-height: 100vh;
-  padding:  80px 0 160px;
+  padding: 80px 0 160px;
   width: 100%;
   max-width: 1060px;
   margin: 0 auto;
+}
+
+.story-wrapper {
+  background-image: url('/images/topography-single.png'),
+    url('/images/prefooter1.png'), url('/images/prefooter2.png');
+  background-repeat: no-repeat;
+  background-position: 100% 300px, 0 100%, 100% 100%;
 }
 
 .title-block {
@@ -233,16 +249,16 @@ a.titlelink {
   letter-spacing: 0.2em;
   background-color: var(--color-off-white);
   &:after {
-  content: '';
-  height: 12px;
-  width: 20px;
-  display: inline-block;
-  margin-left: 12px;
-  background-image: url('@/assets/images/arrow.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+    content: '';
+    height: 12px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 12px;
+    background-image: url('@/assets/images/arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .pagination-links a.next:hover,

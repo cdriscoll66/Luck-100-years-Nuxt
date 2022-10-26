@@ -207,6 +207,7 @@ const startTheShow = () => {
         :slides="slides"
         :onScreen="state.onScreen"
         @goToSlide="dotSlide"
+        @returnToTimeline="hideCase"
       
       />
       <Transition>

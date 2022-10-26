@@ -1,6 +1,4 @@
 <script setup lang="ts">
-
-
 const emit = defineEmits(['goToSlide', 'hideSlide'])
 
 const props = defineProps(['slides', 'frameWereOn'])
@@ -12,7 +10,6 @@ const nextSlide: any = computed(() => {
   return next
 })
 
-
 const prevSlide: any = computed(() => {
   let prev = props.frameWereOn + 1
   return prev
@@ -21,6 +18,9 @@ const prevSlide: any = computed(() => {
 
 <template>
   <div class="content-wrapper">
+    <div class="timeline-button">
+      <a @click.prevent="emit('hideSlide')">Timeline</a>
+    </div>
     <div class="content__title">
       <h2 class="title">{{ props.slides[frameWereOn].title }}s</h2>
       <h4 class="subtitle">{{ props.slides[frameWereOn].subtitle }}</h4>
@@ -29,8 +29,12 @@ const prevSlide: any = computed(() => {
       <component :is="component" />
     </div>
     <div class="decade-pagination">
-      <a v-if="props.frameWereOn === (props.slides.length - 1)" class="prev" @click="emit('hideSlide')">
-        <span> Return to Timeline</span>
+      <a
+        v-if="props.frameWereOn === props.slides.length - 1"
+        class="prev"
+        @click="emit('hideSlide')"
+      >
+        <span>Return to Timeline</span>
       </a>
       <a v-else class="prev" @click="emit('goToSlide', prevSlide)">
         <span>Previous Decade: {{ props.slides[prevSlide].title }}</span>
@@ -46,7 +50,6 @@ const prevSlide: any = computed(() => {
 </template>
 
 <style lang="scss">
-
 .content-wrapper {
   padding: 100px 25px 200px;
   min-height: 100vh;
@@ -63,6 +66,34 @@ const prevSlide: any = computed(() => {
   outline-offset: -20px;
   @media (min-width: 1120px) {
     padding: 100px 100px 200px;
+  }
+}
+
+.timeline-button {
+  display: flex;
+  position: fixed;
+  top: 25px;
+  left: 60px;
+  z-index: 100;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  @media (min-width: 1120px) {
+    display: none;
+  }
+  &:before {
+    content: '';
+    height: 12px;
+    width: 20px;
+    margin-left: -28px;
+    top: 8px;
+    transform: rotate(180deg);
+    position: absolute;
+    transition: margin-left 0.3s ease-in-out;
+    background-image: url('@/assets/images/arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -126,6 +157,35 @@ h4.subtitle {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   background-color: var(--color-off-white);
+  span {
+    position: relative;
+  }
+}
+.decade-pagination a.next span:after,
+.decade-pagination a.prev span:before {
+  content: '';
+  height: 12px;
+  width: 20px;
+  margin-left: 12px;
+  top: 3px;
+  position: absolute;
+  transition: margin-left 0.3s ease-in-out;
+  background-image: url('@/assets/images/arrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.decade-pagination a.prev span:before {
+  transform: rotate(180deg);
+  margin-left: -32px;
+}
+.decade-pagination a.next:hover span:after {
+  margin-left: 20px;
+}
+
+.decade-pagination a.prev:hover span:before {
+  margin-left: -40px;
 }
 
 .decade-pagination a.next:hover,

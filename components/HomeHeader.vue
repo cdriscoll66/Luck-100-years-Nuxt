@@ -26,7 +26,7 @@
     height: 645px;
     color: var(--color-white);
     text-align: center;
-    gap: 20;
+    gap: 20px;
     
 }
 

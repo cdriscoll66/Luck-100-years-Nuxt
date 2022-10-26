@@ -30,6 +30,8 @@
     color: var(--color-gold-dark);
 }
 
+
+
 h3 {
     font-family: 'Professor', sans-serif;
     font-weight: 300;
@@ -48,5 +50,7 @@ p {
 .prefootercta__button {
     margin-top: 30px;
 }
+
+
 
 </style>
