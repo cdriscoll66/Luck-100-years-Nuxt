@@ -28,7 +28,10 @@
 
 .hero-yourstories__content {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    @media (min-width: 900px) {
+        flex-flow: row nowrap;
+    }
 }
 
 .hero-yourstories__title {

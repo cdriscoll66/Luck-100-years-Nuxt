@@ -162,9 +162,12 @@ a.titlelink {
 }
 
 .story__content {
-  width: 100%;
   max-width: 740px;
-  margin: 50px auto 50px 50px;
+  margin: 50px 20px;
+  @media (min-width: 768px) {
+    margin: 50px auto 50px 50px;
+    width: 100%;
+  }
   p {
     margin-top: 26px;
     font-weight: 200;
@@ -204,7 +207,10 @@ a.titlelink {
 .title-block {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 20px;
+  @media (min-width: 1000px) {
+    margin: 0 auto;
+  }
 }
 
 .title-block__inner {

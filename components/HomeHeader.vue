@@ -32,7 +32,8 @@
 
 .hero-home__image {
     img {
-        width: 100%;
+    width: 50vw;
+    max-width: 506px;
     }
 }
 

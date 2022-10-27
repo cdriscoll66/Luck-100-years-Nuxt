@@ -19,7 +19,7 @@ const prevSlide: any = computed(() => {
 <template>
   <div class="content-wrapper">
     <div class="timeline-button">
-      <a @click.prevent="emit('hideSlide')">Timeline</a>
+      <NuxtLink @click.prevent="emit('hideSlide')">Timeline</NuxtLink>
     </div>
     <div class="content__title">
       <h2 class="title">{{ props.slides[frameWereOn].title }}s</h2>
@@ -174,6 +174,10 @@ h4.subtitle {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  display:none;
+  @media (min-width: 768px) {
+    display: inline-block;
+  }
 }
 
 .decade-pagination a.prev span:before {

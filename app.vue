@@ -3,24 +3,37 @@ import { modalStore } from '~/stores/ModalStore'
 
 const store = modalStore()
 const route = useRoute()
-const router = useRouter();
+const router = useRouter()
 
 const state = reactive({
   menuOpen: false,
-  siteWidth: null
+  siteWidth: null,
 })
 
-onMounted(() => {
-  state.siteWidth = window.innerWidth;
-    window.addEventListener("resize", () => {
-        state.menuOpen = false;
-        state.siteWidth = window.innerWidth;
-  })});
+const updateMenuBody = () => {
+  // drawer
+  if (state.menuOpen) {
+    document.body.classList.add('overflow-hidden')
+  } else {
+    document.body.classList.remove('overflow-hidden')
+  }
+}
 
+onMounted(() => {
+  state.siteWidth = window.innerWidth
+  window.addEventListener('resize', () => {
+    state.menuOpen = false
+    state.siteWidth = window.innerWidth
+  })
+})
+
+onUpdated(() => {
+  updateMenuBody()
+})
 
 router.afterEach((to, from, next) => {
-  state.menuOpen = false;
-  next;
+  state.menuOpen = false
+  next
 })
 
 const headerClass = computed(() => {
@@ -47,7 +60,7 @@ const ToggleMenu = () => {
         </NuxtLink>
       </div>
       <Transition>
-        <nav v-show="state.menuOpen || (state.siteWidth >= 900)">
+        <nav v-show="state.menuOpen || state.siteWidth >= 900">
           <NuxtLink to="/hundred-years">100 Years</NuxtLink>
           <NuxtLink to="/your-stories">Your Stories</NuxtLink>
           <!-- <RouterLink to="/our-dreams">Our Dreams</RouterLink> -->
@@ -59,7 +72,6 @@ const ToggleMenu = () => {
         <X v-if="state.menuOpen" />
         <Bars v-else />
       </button>
-
     </div>
   </header>
 
@@ -80,6 +92,12 @@ header {
   width: 100%;
   line-height: 1.5;
   padding: 0;
+  a {
+    color: var(--color-white);
+    @media (min-width: 900px) {
+      color: var(--color-green);
+    }
+  }
   &.hundredyears {
     display: none;
   }
@@ -93,6 +111,7 @@ header {
 .toggle {
   display: block;
   background-color: var(--color-bronze-light);
+  border-width: 0;
   @media (min-width: 900px) {
     display: none;
   }
@@ -144,7 +163,6 @@ nav {
       background: var(--color-gold-dark);
       @media (min-width: 900px) {
         background: var(--color-transparent);
-
       }
     }
     &:active {
@@ -154,7 +172,6 @@ nav {
       padding: 0;
       margin: 0 35px;
       font-size: 1rem;
-
     }
   }
 }
@@ -182,5 +199,4 @@ nav a.router-link-active:before {
 .v-leave-to {
   opacity: 0;
 }
-
 </style>

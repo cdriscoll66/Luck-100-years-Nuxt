@@ -30,7 +30,10 @@
 
 .footer-links {
 display: flex;
-gap: 72px;
+gap: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+flex-flow: column nowrap;
 justify-content: space-between;
 a {
     font-size: 1rem;
@@ -39,6 +42,10 @@ a {
     line-height: 1.06;
     letter-spacing: .2em;
     color: var(--color-gold);
+}
+@media (min-width: 900px) {
+    gap: 72px;
+    flex-flow: row nowrap;
 }
 }
 </style>
