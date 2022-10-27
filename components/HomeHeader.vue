@@ -51,6 +51,7 @@ h3 {
     line-height: 1.625;
     font-weight: 200;
     color: var(--color-white);
-
+    font-family: 'GothamHTF', sans-serif;
+    max-width: 500px;
 }
 </style>
