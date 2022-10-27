@@ -5,10 +5,10 @@
 <template>
     <div class="hero-home">
         <div class="hero-home__image">
-            <img src="~/assets/images/100-logo.svg" alt="hero-home" class="hero-home__img">
+            <img src="~/assets/images/100-logo.svg" alt="hero-home" class="hero-home__img" />
         </div>
             <h1>Powering Possibilities</h1>
-            <h3>100 years of powering possibilities for our associates,<br /> customers and communities</h3>
+            <h3>100 years of powering possibilities for our associates, customers and communities</h3>
     </div>
 </template>
 
