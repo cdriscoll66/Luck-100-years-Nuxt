@@ -97,21 +97,21 @@
     "cardtype": "full"
   },
   {
-    "id": "vernon-perdue",
-    "title": "Vernon Perdue",
+    "id": "emily-coyner",
+    "title": "Emily Coyner",
     "type": "read",
-    "subtitle": "Senior Project Manager",
-    "tagline": "FAM Construction",
-    "link": "vernon-perdue",
+    "subtitle": "Senior Director, Environmental Policy",
+    "tagline": "National Store, Sand and Gravel Association",
+    "link": "emily-coyner",
     "cardtype": "smallshadowright"
-  },
+  }, 
   {
-    "id": "ed-stelter",
-    "title": "Ed Stelter",
+    "id": "jack-miller",
+    "title": "Jack Miller",
     "type": "read",
-    "subtitle": "Vice President, Procurement",
-    "tagline": "Faulconer Construction",
-    "link": "ed-stelter",
+    "subtitle": "CEO",
+    "tagline": "Northern Virginia Drilling",
+    "link": "jack-miller",
     "cardtype": "smallshadowleft"
   },
   {

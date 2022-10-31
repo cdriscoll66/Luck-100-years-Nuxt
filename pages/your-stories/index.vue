@@ -271,4 +271,9 @@ a.titlelink {
 .pagination-links a.prev:hover {
   background-color: var(--color-gold-light);
 }
+
+.big-image img {
+  width: 100%;
+  height: auto;
+}
 </style>
