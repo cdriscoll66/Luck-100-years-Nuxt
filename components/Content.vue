@@ -24,6 +24,7 @@ const prevSlide: any = computed(() => {
     <div class="content__title">
       <h2 class="title">{{ props.slides[frameWereOn].title }}s</h2>
       <h4 class="subtitle">{{ props.slides[frameWereOn].subtitle }}</h4>
+      <p class="subcontent">{{ props.slides[frameWereOn].content }}</p>
     </div>
     <div class="pt-50">
       <component :is="component" />
@@ -120,6 +121,10 @@ h4.subtitle {
   line-height: 1.3333;
   font-weight: 300;
   letter-spacing: -0.01em;
+}
+
+p.subcontent {
+  font-weight: 200;
 }
 
 .content__title {
