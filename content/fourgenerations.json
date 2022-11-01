@@ -1,0 +1,30 @@
+[
+    {
+      "id": "luck-1",
+      "title": "Charles Luck Jr.",
+      "image": "profile.png",
+      "quote": "“Take care of your people, and they will take care of you.”",
+      "link": "charles-luck-jr"
+    },
+    {
+        "id": "luck-2",
+        "title": "Charles Luck III",
+        "image": "profile.png",
+        "quote": "We Care",
+        "link": "charles-luck-iii"
+    },
+    {
+        "id": "luck-3",
+        "title": "Charles Luck IV.",
+        "image": "profile.png",
+        "quote": "Igniting Human Potential",
+        "link": "charles-luck-iv"
+    },
+    {
+        "id": "luck-4",
+        "title": "Richard Luck",
+        "image": "profile.png",
+        "quote": "Stone is Just the Start",
+        "link": "richard-luck"
+    }
+]
