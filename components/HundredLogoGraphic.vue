@@ -2,7 +2,7 @@
 
 <template>
   <div class="hundred-graphic">
-    <h2 class="hundred-graphic__title">The Hundred Year Breakdown</h2>
+    <h2 class="hundred-graphic__title">Explaining the Clovers</h2>
     <div class="hundred-graphic__inner">
       <div class="hundred-graphic__image">
         <img
@@ -13,9 +13,7 @@
       <div class="hundred-graphic__text">
         <h4>The 00s</h4>
         <p>
-          Morbi finibus felis ut eros facilisis, faucibus tristique felis
-          elementum. Pellentesque eleifend commodo eros, non pretium augue
-          suscipit
+          Our 100th anniversary logo is inspired by the timeless clover. Our mark, which has evolved over the years, has stood the test of time as a symbol of growth, optimism and family. For 100 years, we’ve stayed true to the clover, and it continues to ground us today. 
         </p>
       </div>
     </div>

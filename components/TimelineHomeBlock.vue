@@ -9,9 +9,9 @@
             <img src="/images/home-page/home-collage1.png" alt="Tome Timeline Collage" />
         </div>
         <div class="timeline-home__text">
-            <h2>Timeline</h2>
-            <p>Morbi finibus felis ut eros facilisis, faucibus tristique felis elementum. Pellentesque eleifend commodo eros, non pretium augue suscipit</p>
-            <div class="link-button__wrapper"><NuxtLink class="link-button" to="/hundred-years">Explore Timeline</NuxtLink></div>
+            <h2>100 Years</h2>
+            <p>It all started at Sunnyside … growing customer partnerships, joining new communities and building a culture where people can thrive. We have been igniting human potential and powering possibilities since 1923.</p>
+            <div class="link-button__wrapper"><NuxtLink class="link-button" to="/hundred-years">Explore our history.</NuxtLink></div>
         </div>
 
     </div>

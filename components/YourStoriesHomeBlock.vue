@@ -8,8 +8,8 @@
 
         <div class="ystories-home__text">
             <h2>Your Stories</h2>
-            <p>Morbi finibus felis ut eros facilisis, faucibus tristique felis elementum. Pellentesque eleifend commodo eros, non pretium augue suscipit</p>
-            <div class="link-button__wrapper"><NuxtLink class="link-button" to="/your-stories">Explore Your Stories</NuxtLink></div>
+            <p>The story of Luck Companies is about relationships. And it’s best told in the voices of the customers and community partners who inspire us every day. Hear from the people who have made this milestone possible.</p>
+            <div class="link-button__wrapper"><NuxtLink class="link-button" to="/your-stories">Explore your stories</NuxtLink></div>
         </div>
 
         <div class="ystories-home__media">

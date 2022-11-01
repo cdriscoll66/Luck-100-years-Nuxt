@@ -21,17 +21,14 @@ const playModal = () => {
       <div class="president__text">
         <h2>A Message From Our President</h2>
         <p>
-          Morbi finibus felis ut eros facilisis, faucibus tristique felis
-          elementum. Pellentesque eleifend commodo eros, non pretium augue
-          suscipit
+          As we mark our 100th year in business, I'm humbled by the dedication of so many who have made this milestone possible. Together, we have built this company on a simple idea: people are our purpose, and every one of us has the potential to make a positive impact.
         </p>
         <p>
-          Morbi finibus felis ut eros facilisis, faucibus tristique felis
-          elementum. Pellentesque eleifend commodo eros, non pretium augue
-          suscipit
+          Thank you for joining us to reflect on our shared history, celebrate the impact we've made together and look ahead to a future woven with possibilities. We're so glad you're here.
         </p>
-        <p>Sincerely,</p>
+        <p>Many thanks,</p>
         <p class="signature">Charlie Luck IV</p>
+        <p>President and CEO<br />Luck Companies</p>
       </div>
       <div class="president__media">
         <a @click="playModal">
@@ -97,5 +94,6 @@ p.signature {
   font-size: 2.25rem;
   line-height: 1;
   color: #220e00;
+  margin-top: 30px; 
 }
 </style>

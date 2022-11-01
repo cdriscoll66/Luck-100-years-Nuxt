@@ -8,7 +8,7 @@
             <img src="~/assets/images/100-logo.svg" alt="hero-home" class="hero-home__img" />
         </div>
             <h1>Powering Possibilities</h1>
-            <h3>100 years of powering possibilities for our associates, customers and communities</h3>
+            <h3>For 100 years, Luck Companies has been about people: powering possibilities for associates, customers and communities, and continuing to make a positive impact on the lives of others for generations to come.</h3>
     </div>
 </template>
 
