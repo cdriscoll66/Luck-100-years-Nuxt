@@ -21,7 +21,7 @@ import fourgenerations from '~/content/fourgenerations.json'
             <div class="profile__text">
                 <h2>{{ profile.title }}</h2>
                 <p class="quote">{{ profile.quote }}</p>
-                <NuxtLink class="link-button" :to="`four-generations/${profile.link}`">Explore His Story</NuxtLink>
+                <NuxtLink class="link-button" :to="`/four-generations/${profile.link}`">Explore His Story</NuxtLink>
             </div>
         </div> 
     </div>
