@@ -7,7 +7,11 @@
     "subtitle": "Sem Sollicitudin Euismod",
     "tagline": "Lorem Ipsum Dolor",
     "link": "va-tech",
-    "cardtype": "full"
+    "cardtype": "full",
+    "content": {
+      "p": "",
+      "h2": "Lorem Ipsum Dolor"
+    }
   },
   {
     "id": "scott-claud",
@@ -17,7 +21,17 @@
     "subtitle": "President",
     "tagline": "Colony Construction",
     "link": "scott-claud",
-    "cardtype": "textmedia"
+    "cardtype": "textmedia",
+    "bigImage": "scott-claud-large.jpg",
+    "content": {
+      "quote": [
+        "At Colony Construction, we've worked with Luck Stone to pave the roads in our community for many years.",
+        "Our company has grown along with theirs, and we're grateful for their continued partnership. ",
+        "Road construction is always complex and challenging, but we work together and figure out how to tackle each project.",
+        "We support our community together, too, whether that's paving a church parking lot or serving together on industry association boards. ",
+        "What I've learned about Luck Stone is this: some companies build accounts. I believe Luck Stone builds relationships."
+      ]
+    }
   },
   {
     "id": "aubrey-witt",
@@ -27,7 +41,20 @@
     "subtitle": "Retiree",
     "tagline": "34 Years of Service",
     "link": "aubrey-witt",
-    "cardtype": "profileimagecenter"
+    "cardtype": "profileimagecenter",
+    "audio": "/audio/Aubrey Witt (music).mp3",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "id": "bill-scharr",
@@ -37,7 +64,20 @@
     "subtitle": "Retireee",
     "tagline": "17 years of service",
     "link": "bill-scharr",
-    "cardtype": "profileimageleft"
+    "cardtype": "profileimageleft",
+    "audio": "/audio/Bill Schaar music.mp3",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "id": "michelle-trudeau",
@@ -47,7 +87,20 @@
     "subtitle": "Retiree",
     "tagline": "7 Years of Service",
     "link": "michelle-trudeau",
-    "cardtype": "profileimagecenter"
+    "cardtype": "profileimagecenter",
+    "audio": "/audio/Michelle Trudeau (music).mp3",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "title": "Goochland Fire",
@@ -56,7 +109,19 @@
     "subtitle": "Sem Sollicitudin Euismod",
     "tagline": "Lorem Ipsum Dolor",
     "link": "goochland-fire",
-    "cardtype": "full"
+    "cardtype": "full",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "title": "Jeff Wansley",
@@ -65,7 +130,15 @@
     "subtitle": "Executive Director",
     "tagline": "Georgia Construction Aggregates Association",
     "link": "jeff-wansley",
-    "cardtype": "textmedia"
+    "cardtype": "textmedia",
+    "bigImage": "GCAA.jpg",
+    "content": {
+      "quote": [
+        "When I learned that Luck Stone was coming to Georgia, I was excited because I knew they had a reputation not only for excellence in their own business but also for contributing to the betterment of the aggregates industry overall.",
+        "They have exceeded my high expectations for their level of commitment to our work—they’re constantly providing financial support for our activities, they send their people to utilize our programs, Joe Carnahan serves on our board, and Charlie Luck was an incredible speaker for our statewide conference.",
+        "We're honored to have them involved and look forward to watching them grow here in Georgia."
+      ]
+    }
   },
   {
     "title": "Conrad Feggins",
@@ -74,7 +147,20 @@
     "subtitle": "Retiree",
     "tagline": "21 Years of Service",
     "link": "conrad-feggins",
-    "cardtype": "profileimagecenter"
+    "cardtype": "profileimagecenter",
+    "audio": "/audio/Conrad Feggins (music).mp3",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "id": "tom-williams",
@@ -84,7 +170,20 @@
     "subtitle": "Retiree",
     "tagline": "19 years of service",
     "link": "tom-williams",
-    "cardtype": "profileimageleft"
+    "cardtype": "profileimageleft",
+    "audio": "/audio/Tom Williams (music).mp3",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "id": "austin-powder",
@@ -94,7 +193,19 @@
     "subtitle": "Sem Sollicitudin Euismod",
     "tagline": "Lorem Ipsum Dolor",
     "link": "austin-powder",
-    "cardtype": "full"
+    "cardtype": "full",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   },
   {
     "id": "emily-coyner",
@@ -103,8 +214,18 @@
     "subtitle": "Senior Director, Environmental Policy",
     "tagline": "National Store, Sand and Gravel Association",
     "link": "emily-coyner",
-    "cardtype": "smallshadowright"
-  }, 
+    "cardtype": "smallshadowright",
+    "bigImage": "NSSGA.jpg",
+    "content": {
+      "quote": [
+        "As the senior director of environmental policy for the National Stone, Sand and Gravel Association, my job is to help our members understand environmental laws and regulations and help policymakers and regulators understand our industry.",
+        "I can always rely on Luck Stone not only to exceed their environmental requirements, but also to demonstrate their genuine commitment to making a positive impact.",
+        "From automating their plants to building bike paths to providing their associates with technical and leadership training to hosting policymakers and regulators at their facilities, they are always going above and beyond in service to our industry.",
+        "It's unusual in our business for a customer to stay with a driller for so many years—usually a quarry operator will just go to the lowest bidder—but Luck Stone has been committed to working with us for more than 30 years, and we are grateful for their continued partnership.",
+        "They are true leaders in our industry—in innovation, sustainability and as an example of how to lead with purpose."
+      ]
+    }
+  },
   {
     "id": "jack-miller",
     "title": "Jack Miller",
@@ -112,7 +233,16 @@
     "subtitle": "CEO",
     "tagline": "Northern Virginia Drilling",
     "link": "jack-miller",
-    "cardtype": "smallshadowleft"
+    "cardtype": "smallshadowleft",
+    "bigImage": "NVDrilling.jpg",
+    "content": {
+      "quote": [
+        "We've been working with Luck Stone as a driller since 1989, and our family business has grown along with theirs.",
+        "I think it's because we are both really committed to our people, to making sure they're safe and they have the opportunity to do good work and to grow. I think this is the secret to how we both get the job done for our customers.",
+        "Luck Stone's quarries are certainly the safest and the cleanest to work in, and they have always communicated with us about their plans, which has helped us to plan, as well.",
+        "It's unusual in our business for a customer to stay with a driller for so many years—usually a quarry operator will just go to the lowest bidder—but Luck Stone has been committed to working with us for more than 30 years, and we are grateful for their continued partnership."
+      ]
+    }
   },
   {
     "id": "superior",
@@ -122,6 +252,18 @@
     "subtitle": "Sem Sollicitudin Euismod",
     "tagline": "Lorem Ipsum Dolor",
     "link": "superior",
-    "cardtype": "full"
+    "cardtype": "full",
+    "content": {
+      "p": [
+        "Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illotempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras.",
+        " Magna pars studiorum, prodita quaerimus. Etiam habebis sem dicantur magna mollis euismod. Non equidem invideo, miror magis posuere velit  aliquet. Contra legem facit qui id facit quod lex prohibet.",
+        "Pellentesque habitant morbi tristique senectus et netus. Nec dubitamus multa iter quae et nos invenerat. Quis aute iure reprehenderit in voluptate velit esse.",
+        "Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna. Ut enim ad minim veniam, quis nostrud exercitation. Fictum, deserunt mollit anim laborum astutumque! Ab illo tempore, ab est sed immemorabili.",
+        "Quid securi etiam tamquam eu fugiat nulla pariatur. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras."
+      ]
+    }
   }
 ]
