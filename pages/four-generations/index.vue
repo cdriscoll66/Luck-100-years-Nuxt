@@ -16,7 +16,7 @@ import fourgenerations from '~/content/fourgenerations.json'
     <div class="profiles">
         <div v-for="profile, key in fourgenerations" class="profile">
             <div class="profile__image">
-                <img :src="`images/${profile.image}`" :alt="profile.title" />
+                <img :src="`/images/${profile.image}`" :alt="profile.title" />
             </div>
             <div class="profile__text">
                 <h2>{{ profile.title }}</h2>
