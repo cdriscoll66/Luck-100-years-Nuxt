@@ -3,10 +3,10 @@
 <template>
   <footer class="footer">
     <div class="footer-links">
-      <NuxtLink to="#">Luck Store</NuxtLink>
-      <NuxtLink to="#">Luck Ecosystems</NuxtLink>
-      <NuxtLink to="#">Luck Real Estate</NuxtLink>
-      <NuxtLink to="#">Luck Companies</NuxtLink>
+      <NuxtLink to="http://luckstone.com/">Luck Stone</NuxtLink>
+      <NuxtLink to="http://luckecosystems.com/">Luck Ecosystems</NuxtLink>
+      <NuxtLink to="http://luckrealestateventures.com/">Luck Real Estate</NuxtLink>
+      <NuxtLink to="https://www.luckcompanies.com/">Luck Companies</NuxtLink>
     </div>
     <div class="footer-logo">
       <NuxtLink href="/">
