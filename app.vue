@@ -10,6 +10,16 @@ const state = reactive({
   siteWidth: null,
 })
 
+
+useHead({
+  script: [
+    {
+      src: '/scripts/marker.js',
+    }
+  ]
+})
+
+
 const updateMenuBody = () => {
   // drawer
   if (state.menuOpen) {
@@ -52,6 +62,8 @@ const ToggleMenu = () => {
 </script>
 
 <template>
+
+
   <header :class="headerClass">
     <div class="wrapper">
       <div class="logo">
