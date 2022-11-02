@@ -1,30 +1,92 @@
 [
-    {
-      "id": "luck-1",
-      "title": "Charles Luck Jr.",
-      "image": "profile.png",
-      "quote": "Take care of your people and they will take care of you.",
-      "link": "charles-luck-jr"
-    },
-    {
-        "id": "luck-2",
-        "title": "Charles Luck III",
-        "image": "profile.png",
-        "quote": "We Care",
-        "link": "charles-luck-iii"
-    },
-    {
-        "id": "luck-3",
-        "title": "Charles Luck IV.",
-        "image": "profile.png",
-        "quote": "Igniting Human Potential",
-        "link": "charles-luck-iv"
-    },
-    {
-        "id": "luck-4",
-        "title": "Richard Luck",
-        "image": "profile.png",
-        "quote": "Stone is Just the Start",
-        "link": "richard-luck"
-    }
+  {
+    "id": "luck-1",
+    "title": "Charles Luck Jr.",
+    "image": "profile.png",
+    "quote": "Take care of your people and they will take care of you.",
+    "link": "charles-luck-jr",
+    "intro": [
+      "Charles Luck Jr., the founder of Luck Companies, was born in 18xx. In 1923, he founded Sunnyside Quarries, and in 1927, he separated the quarrying and construction businesses. Immediately faced with the Great Depression, he set up the Cook Car, an on-site kitchen to provide hot meals to associates each day, laying the groundwork for our company’s deep commitment to people. With his leadership, the company not only survived this early test of resilience, but grew during this time, expanding to Charlottesville, Burkeville and Fairfax.",
+      "Charles Luck Jr. was equal parts caring and visionary, combining his exceptional gift at building relationships with his keen intellect and sharp business acumen to build what has become the largest and fastest-growing family-owned aggregates company in the United States."
+    ],
+    "bio_blocks": [
+        { 
+            "image": "cl4-1.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": true,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-2.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": false,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-3.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": true,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-4.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": false,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-5.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": true,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-6.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": false,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-7.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": true,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        },
+        { 
+            "image": "cl4-8.jpg",
+            "alt": "Charles Luck doing something",
+            "portrait": true,
+            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+            "audio": "rhapsody.mp3"
+        }
+    ]
+  },
+  {
+    "id": "luck-2",
+    "title": "Charles Luck III",
+    "image": "profile.png",
+    "quote": "We Care",
+    "link": "charles-luck-iii"
+  },
+  {
+    "id": "luck-3",
+    "title": "Charles Luck IV.",
+    "image": "profile.png",
+    "quote": "Igniting Human Potential",
+    "link": "charles-luck-iv"
+  },
+  {
+    "id": "luck-4",
+    "title": "Richard Luck",
+    "image": "profile.png",
+    "quote": "Stone is Just the Start",
+    "link": "richard-luck"
+  }
 ]
