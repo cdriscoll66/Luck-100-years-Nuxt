@@ -29,11 +29,10 @@
     gap: 20px;
     
 }
-
 .hero-home__image {
     img {
     width: 50vw;
-    max-width: 506px;
+    max-width: 388px;
     }
 }
 

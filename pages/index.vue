@@ -11,7 +11,7 @@
       <div class="outline">
         <PresidentMessage />
         <TimelineHomeBlock />
-        <WideQuote quote="Our business is aggregates, but people are our purpose. Our mission is to ignite human potential and positively impact the lives of others around the world. " />
+        <WideQuote quote="Our business is aggregates but people are our purpose Our mission is to ignite human potential and positively impact the lives of others around the world" />
         <YourStoriesHomeBlock />
         <HundredLogoGraphic />
       </div>

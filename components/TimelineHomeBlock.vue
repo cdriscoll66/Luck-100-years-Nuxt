@@ -46,11 +46,15 @@
 
 .timeline-home__media {
     width: 100%;
+    flex: 1 0 65%;
     img {
         width: 100%;
     }
 }
 
+.timeline-home__text {
+ flex: 1 0 35%;
+}
 
 h2 {
 font-family: 'Sentinel', serif;

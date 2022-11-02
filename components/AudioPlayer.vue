@@ -20,7 +20,7 @@ const props = defineProps({
 
 <style scoped lang="scss">
 .audio {
-  margin-top: 56px;
+  margin: 20px;
   box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.5);
   border-radius: 100px;
   audio {

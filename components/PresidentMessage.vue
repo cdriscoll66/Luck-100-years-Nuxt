@@ -59,7 +59,7 @@ const playModal = () => {
   padding-top: 135px;
   gap: 50px;
   padding-bottom: 200px;
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1120px) {
     width: 100%;
     flex-flow: row nowrap;
   }
@@ -67,8 +67,17 @@ const playModal = () => {
 
 .president__media {
   width: 100%;
+  flex: 1 0 52%;
   img {
     width: 100%;
+  }
+}
+
+.president__text {
+  flex: 1 0 48%;
+  /* padding: 0 20px; */
+  @media screen and (min-width: 1120px) {
+    /* padding: 0; */
   }
 }
 

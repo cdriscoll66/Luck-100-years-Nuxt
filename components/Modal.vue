@@ -76,10 +76,10 @@ onMounted(() => {
   align-items: center;
   height: calc(100vh);
   pointer-events: none;
-  video {
+  img, video {
     pointer-events: all;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90vh;
+    max-height: 90vh;
   }
 }
 </style>

@@ -24,8 +24,10 @@ const openImage = () => {
 </script>
 
 <template>
+  <div class="zoom-image">
     <img :src="`/images/content-images/${src}`" :alt="alt" class="primary-image" a/>
     <a class="open-modal" @click="openImage"><img src="~/assets/images/viewmodal.png" width="44" height="44" alt="open" /></a>
+  </div>
 </template>
 
 <style lang="scss" scoped>
