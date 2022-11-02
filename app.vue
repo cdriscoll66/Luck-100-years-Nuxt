@@ -65,7 +65,7 @@ const ToggleMenu = () => {
 
 
   <header :class="headerClass">
-    <div class="wrapper">
+    <div class="wrapper__app">
       <div class="logo">
         <NuxtLink to="/">
           <Logo :color="headerClass" />
@@ -129,7 +129,7 @@ header {
   }
 }
 
-.wrapper {
+.wrapper__app {
   max-width: 1440px;
   display: flex;
   flex-flow: row nowrap;

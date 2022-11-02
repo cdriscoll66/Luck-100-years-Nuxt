@@ -75,12 +75,6 @@ import yourstories from '~/content/yourstories.json'
 </template>
 
 <style lang="scss">
-.wrapper {
-  padding-top: 79px;
-  max-width: 1120px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 .bg-wrapper {
   background-color: var(--color-off-white);
@@ -173,7 +167,7 @@ a.titlelink {
     font-weight: 200;
     font-size: 1rem;
     line-height: 1.62;
-    color: #595959;
+    color: var(--color-gray-cool);
     &.statement {
       font-family: 'Sentinel', serif;
       font-size: 2rem;
