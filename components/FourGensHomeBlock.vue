@@ -3,18 +3,20 @@
 </script>
 
 <template>
-  <div class="ystories-home">
-    <div class="ystories-home__inner">
+  <div class="fourgens-home">
+    <div class="fourgens-home__inner">
 
-        <div class="ystories-home__text">
-            <h2>Your Stories</h2>
-            <p>The story of Luck Companies is about relationships. And it’s best told in the voices of the customers and community partners who inspire us every day. Hear from the people who have made this milestone possible.</p>
-            <div class="link-button__wrapper"><NuxtLink class="link-button" to="/your-stories">Explore your stories</NuxtLink></div>
+        <div class="fourgens-home__media">
+            <img src="/images/home-page/fourgens.jpg" alt="Four Gens feature Image" />
         </div>
 
-        <div class="ystories-home__media">
-            <img src="/images/home-page/yourstories.jpg" alt="Your Stories feature Image" />
+        <div class="fourgens-home__text">
+            <h2>Four Generations</h2>
+            <p> Four generations of family leaders have built a business on the idea that every single one of us has the potential to make a positive impact on the lives of other people. Learn more about the family leaders of Luck Companies.</p>
+            <div class="link-button__wrapper"><NuxtLink class="link-button" to="/four-generations">Explore our Leadership</NuxtLink></div>
         </div>
+
+
 
     </div>
   
@@ -23,11 +25,11 @@
 
 <style lang="scss" scoped>
 
-.ystories-home {
+.fourgens-home {
     width: 100%;
 }
 
-.ystories-home__inner {
+.fourgens-home__inner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,12 +45,11 @@
 
     }
 }
-
-.ystories-home__text {
+.fourgens-home__text {
     flex: 1 0 48%;
 }
 
-.ystories-home__media {
+.fourgens-home__media {
     width: 100%;
     flex: 1 0 52%;
     img {
