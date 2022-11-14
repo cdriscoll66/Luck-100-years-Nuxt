@@ -1,26 +1,24 @@
 <script setup lang="ts">
+import NineteenTwenty from '../components/slidepages/1920.vue'
+import NinteenThirty from '../components/slidepages//1930.vue'
+import NinteenFourty from '../components/slidepages/1940.vue'
+import NinteenFifty from '../components/slidepages/1950.vue'
+import NinteenSixty from '../components/slidepages/1960.vue'
+import NinteenSeventy from '../components/slidepages/1970.vue'
+import NinteenEighty from '../components/slidepages/1980.vue'
+import NinteenNinety from '../components/slidepages/1990.vue'
+import TwoThousand from '../components/slidepages/2000.vue'
+import TwoThousandTen from '../components/slidepages/2010.vue'
+import TwoThousandTwenty from '../components/slidepages/2020.vue'
 
-import NineteenTwenty from '../components/slidepages/1920.vue';
-import NinteenThirty from '../components/slidepages//1930.vue';
-import NinteenFourty from '../components/slidepages/1940.vue';
-import NinteenFifty from '../components/slidepages/1950.vue';
-import NinteenSixty from '../components/slidepages/1960.vue';
-import NinteenSeventy from '../components/slidepages/1970.vue';
-import NinteenEighty from '../components/slidepages/1980.vue';
-import NinteenNinety from '../components/slidepages/1990.vue';
-import TwoThousand from '../components/slidepages/2000.vue';
-import TwoThousandTen from '../components/slidepages/2010.vue';
-import TwoThousandTwenty from '../components/slidepages/2020.vue';
-
-
-
-import pkg from 'scroll-lock/dist/scroll-lock.js';
-const { enablePageScroll, disablePageScroll } = pkg;
+import pkg from 'scroll-lock/dist/scroll-lock.js'
+const { enablePageScroll, disablePageScroll } = pkg
 
 const state = reactive({
   showIntro: true,
   showDots: false,
   activeSlide: null,
+  showEnd: false,
   onScreen: 0,
 })
 
@@ -28,7 +26,8 @@ const slides = reactive([
   {
     title: '2020',
     subtitle: 'Resilience through turbulent times… ',
-    content: 'A global pandemic inspires the company to increase agility and create new ways of working. Luck Stone launches JobSight, an industry-leading digital platform allowing customers 24/7 accessibility to place orders, manage accounts and track deliveries. The company expands its footprint in North Carolina.  ',
+    content:
+      'A global pandemic inspires the company to increase agility and create new ways of working. Luck Stone launches JobSight, an industry-leading digital platform allowing customers 24/7 accessibility to place orders, manage accounts and track deliveries. The company expands its footprint in North Carolina.  ',
     image: '/images/2020.png',
     zValStart: 11000,
     zVal: 11000,
@@ -37,7 +36,8 @@ const slides = reactive([
   {
     title: '2010',
     subtitle: 'Igniting human potential … ',
-    content: 'Luck Companies establishes its mission to ignite human potential through Values-Based Leadership and positively impact the lives of people around the world. The company executes on its ambition for growth throughout the Southeast with the largest acquisition in company history in Atlanta, and expansion in key markets throughout South Carolina. The company launches Luck Ecosystems, which produces environmental performance products, and InnerWill, a nonprofit dedicated to Values-Based Leadership. The company achieves the best safety record in company history, and is nationally recognized for employee engagement, continuing to demonstrate that safety, innovation and a commitment to people are connected in powerful ways. ',
+    content:
+      'Luck Companies establishes its mission to ignite human potential through Values-Based Leadership and positively impact the lives of people around the world. The company executes on its ambition for growth throughout the Southeast with the largest acquisition in company history in Atlanta, and expansion in key markets throughout South Carolina. The company launches Luck Ecosystems, which produces environmental performance products, and InnerWill, a nonprofit dedicated to Values-Based Leadership. The company achieves the best safety record in company history, and is nationally recognized for employee engagement, continuing to demonstrate that safety, innovation and a commitment to people are connected in powerful ways. ',
     image: '/images/2010.png',
     zValStart: 10000,
     zVal: 10000,
@@ -46,7 +46,8 @@ const slides = reactive([
   {
     title: '2000',
     subtitle: 'Entering a new millennium … ',
-    content: 'Luck Companies continues to grow in size and sophistication, launching a digital customer portal, co-developing a remote-control loader to enhance associate safety, expanding in Northern Virginia and Hampton Roads and officially launching Luck Stone Center. The company also launches its first vision cycle to steer our growth and renovated our corporate headquarters with sophisticated use of earth elements. ',
+    content:
+      'Luck Companies continues to grow in size and sophistication, launching a digital customer portal, co-developing a remote-control loader to enhance associate safety, expanding in Northern Virginia and Hampton Roads and officially launching Luck Stone Center. The company also launches its first vision cycle to steer our growth and renovated our corporate headquarters with sophisticated use of earth elements. ',
     image: '/images/2000.png',
     zValStart: 9000,
     zVal: 9000,
@@ -55,7 +56,8 @@ const slides = reactive([
   {
     title: '1990',
     subtitle: 'A period of explosive growth…',
-    content: 'The company launches several new innovations, including the industry’s first self-service stone loading system and an advanced computer monitoring system for crushing operations. The company opens several new locations, including Goose Creek and Louisa, and expands into several new markets, including sand and gravel and engineered surfacing products. The company formalizes its interests in real estate with the development of what is now Luck Real Estate Ventures.  ',
+    content:
+      'The company launches several new innovations, including the industry’s first self-service stone loading system and an advanced computer monitoring system for crushing operations. The company opens several new locations, including Goose Creek and Louisa, and expands into several new markets, including sand and gravel and engineered surfacing products. The company formalizes its interests in real estate with the development of what is now Luck Real Estate Ventures.  ',
     image: '/images/1990.png',
     zValStart: 8000,
     zVal: 8000,
@@ -64,7 +66,8 @@ const slides = reactive([
   {
     title: '1980',
     subtitle: 'Expanding within and beyond Virginia … ',
-    content: 'The company grows outside of Virginia for the first time with the purchase of a plant in Burlington, NC, and custom stone facilities in Greensboro, NC and Knoxville, Tenn. Growth within Virginia continues at a rapid pace, with new plants in Elkton, Greene, Powhatan and a greenfield in Bealeton, as well as the co-creation of the Virginia Department of Transportation’s Quality Assurance Program and Statistical Quality Control Program. ',
+    content:
+      'The company grows outside of Virginia for the first time with the purchase of a plant in Burlington, NC, and custom stone facilities in Greensboro, NC and Knoxville, Tenn. Growth within Virginia continues at a rapid pace, with new plants in Elkton, Greene, Powhatan and a greenfield in Bealeton, as well as the co-creation of the Virginia Department of Transportation’s Quality Assurance Program and Statistical Quality Control Program. ',
     image: '/images/1980.png',
     zValStart: 7000,
     zVal: 7000,
@@ -73,7 +76,8 @@ const slides = reactive([
   {
     title: '1970',
     subtitle: 'Investing in safety and innovation … ',
-    content: 'The company continues to lead as an innovator, launching a comprehensive safety program, opening the first retail showroom in the industry, implementing computerized ticketing at sales offices and automating a number of plants to enhance safety and increase production. In addition, the Aviation Department is established to ensure that as the company grows, associates can stay connected to each other and return home to their families as soon as possible.',
+    content:
+      'The company continues to lead as an innovator, launching a comprehensive safety program, opening the first retail showroom in the industry, implementing computerized ticketing at sales offices and automating a number of plants to enhance safety and increase production. In addition, the Aviation Department is established to ensure that as the company grows, associates can stay connected to each other and return home to their families as soon as possible.',
     image: '/images/1970.png',
     zValStart: 6000,
     zVal: 6000,
@@ -82,7 +86,8 @@ const slides = reactive([
   {
     title: '1960',
     subtitle: 'Laying the groundwork …',
-    content: 'Sunnyside Granite supports American troops during World War II by producing and shipping much-needed stone to military bases in Hampton Roads, Virginia. The company diversifies into asphalt production. ',
+    content:
+      'Sunnyside Granite supports American troops during World War II by producing and shipping much-needed stone to military bases in Hampton Roads, Virginia. The company diversifies into asphalt production. ',
     image: '/images/1960.png',
     zValStart: 5000,
     zVal: 5000,
@@ -91,7 +96,8 @@ const slides = reactive([
   {
     title: '1950',
     subtitle: 'Expanding into new markets…',
-    content: 'Sunnyside Granite supports American troops during World War II by producing and shipping much-needed stone to military bases in Hampton Roads, Virginia. The company diversifies into asphalt production. ',
+    content:
+      'Sunnyside Granite supports American troops during World War II by producing and shipping much-needed stone to military bases in Hampton Roads, Virginia. The company diversifies into asphalt production. ',
     image: '/images/1950.png',
     zValStart: 4000,
     zVal: 4000,
@@ -100,7 +106,8 @@ const slides = reactive([
   {
     title: '1940',
     subtitle: 'Supporting the War Effort',
-    content: 'Sunnyside Granite supports American troops during World War II by producing and shipping much-needed stone to military bases in Hampton Roads, Virginia. The company diversifies into asphalt production. ',
+    content:
+      'Sunnyside Granite supports American troops during World War II by producing and shipping much-needed stone to military bases in Hampton Roads, Virginia. The company diversifies into asphalt production. ',
     image: '/images/1940.png',
     zValStart: 3000,
     zVal: 3000,
@@ -109,7 +116,8 @@ const slides = reactive([
   {
     title: '1930',
     subtitle: 'An early test of resilience ...',
-    content: 'During the Great Depression, an on-site kitchen is set up to provide hot meals to associates each day. It became known as the Cook Car, laying the groundwork for our company’s deep commitment to people. The company expands to Charlottesville, Burkeville and Fairfax. The company invests in innovation, making our Boscobel Plant the first crushed stone operation in Virginia to operate powered by electricity.',
+    content:
+      'During the Great Depression, an on-site kitchen is set up to provide hot meals to associates each day. It became known as the Cook Car, laying the groundwork for our company’s deep commitment to people. The company expands to Charlottesville, Burkeville and Fairfax. The company invests in innovation, making our Boscobel Plant the first crushed stone operation in Virginia to operate powered by electricity.',
     image: '/images/1930.png',
     zValStart: 2000,
     zVal: 2000,
@@ -118,7 +126,8 @@ const slides = reactive([
   {
     title: '1920',
     subtitle: 'It starts at Sunnyside …',
-    content: 'Luck Companies begins as Sunnyside Granite Company in Richmond, Va. Approximately 20 associates work in the Sunnyside Quarry mining and crushing rock for use in construction. ',
+    content:
+      'Luck Companies begins as Sunnyside Granite Company in Richmond, Va. Approximately 20 associates work in the Sunnyside Quarry mining and crushing rock for use in construction. ',
     image: '/images/1920.png',
     zValStart: 1000,
     zVal: 1000,
@@ -140,6 +149,11 @@ const handleScroll = (e: any) => {
     slides[i].zVal = slides[i].zValStart - top
   })
   state.onScreen = Math.round((top + 490) / 1000)
+  if (top > 11000) {
+    state.showEnd = true
+  } else {
+    state.showEnd = false
+  }
 }
 
 const zBind = (num: any) => {
@@ -152,7 +166,7 @@ const zBind = (num: any) => {
   } else if (zVal > 1100) {
     fadeOpacity = 1 - (zVal - 1100) / 500
   } else if (zVal < 200) {
-    fadeOpacity = 1 - (zVal - 100) / -100 
+    fadeOpacity = 1 - (zVal - 100) / -100
   } else {
     fadeOpacity = 1
   }
@@ -166,20 +180,21 @@ const zBind = (num: any) => {
 }
 
 const scrollToSlide = (num: number) => {
-  const scrollPromise: any =  new Promise((resolve, reject) => {
-  let goHere = slides[num].zValStart - 100
-  resolve(  
-    window.scrollTo({
-    top: goHere,
-    behavior: 'smooth',
-  }))
-  return scrollPromise;
-})
+  const scrollPromise: any = new Promise((resolve, reject) => {
+    let goHere = slides[num].zValStart - 100
+    resolve(
+      window.scrollTo({
+        top: goHere,
+        behavior: 'smooth',
+      }),
+    )
+    return scrollPromise
+  })
 }
 
 const showCase = (num: any) => {
-  scrollToSlide(num);
-  state.activeSlide = num;
+  scrollToSlide(num)
+  state.activeSlide = num
   disablePageScroll(document.querySelector('.htmlstage')!)
   document.body.style.overflow = 'hidden'
 }
@@ -219,7 +234,6 @@ const startTheShow = () => {
         :onScreen="state.onScreen"
         @goToSlide="dotSlide"
         @returnToTimeline="hideCase"
-      
       />
       <Transition>
         <IntroSlide v-show="state.showIntro" @start="startTheShow"></IntroSlide>
@@ -233,7 +247,12 @@ const startTheShow = () => {
           :key="index"
           v-bind:style="zBind(index)"
         >
-          <div :class="{'inner-content': String, 'inner-content__open': state.activeSlide !== null}">
+          <div
+            :class="{
+              'inner-content': String,
+              'inner-content__open': state.activeSlide !== null,
+            }"
+          >
             <div class="stage">
               <div v-if="state.activeSlide == index" class="content-container">
                 <Content
@@ -250,7 +269,6 @@ const startTheShow = () => {
             </div>
           </div>
 
-
           <a
             v-show="state.activeSlide === null"
             @click.prevent="showCase(index)"
@@ -258,6 +276,15 @@ const startTheShow = () => {
           ></a>
         </div>
       </div>
+      <Transition>
+        <div v-show="state.showEnd" class="final-graphic">
+          <img
+            class="luck-logo"
+            src="~/assets/images/100-logo.svg"
+            alt="Luck Logo"
+          />
+        </div>
+      </Transition>
     </div>
   </main>
 </template>
@@ -346,9 +373,8 @@ const startTheShow = () => {
 }
 
 .slideclick {
-  transform:translateZ(101px);
+  transform: translateZ(101px);
 }
-
 
 .inner-content {
   height: 100%;
@@ -368,15 +394,14 @@ const startTheShow = () => {
   overflow: scroll;
   height: 100vh;
   /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .stage::-webkit-scrollbar {
   display: none;
 }
-
 
 .v-enter-active,
 .v-leave-active {
@@ -395,5 +420,16 @@ const startTheShow = () => {
 
 .hide-dots {
   transform: translateX(-200px);
+}
+
+.final-graphic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
