@@ -68,11 +68,15 @@
   margin-top: 110px;
 }
 
+
+
 .hundred-graphic__inner {
   width: 100%;
   display: flex;
   position: relative;
   margin-top: 44px;
+  .hundred-graphic__image {
+      overflow: hidden;
 
   img {
     width: 140%;
@@ -82,12 +86,13 @@
     }
   }
 }
+}
 
 .hundred-graphic__text {
   position: absolute;
   width: 100%;
   height: 100%;
-  bottom: -75px;
+  bottom: -125px;
   right: 0;
   display: flex;
   flex-flow: column nowrap;
@@ -115,7 +120,7 @@ h4 {
 .hundred-graphic__blocks {
     display: flex;
     flex-flow: column nowrap;
-    margin-top: 125px;
+    margin-top: 200px;
     gap: 64px;
     @media screen and (min-width: 768px) {
         flex-flow: row nowrap;

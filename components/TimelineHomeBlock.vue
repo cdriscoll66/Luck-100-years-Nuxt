@@ -53,7 +53,7 @@
 }
 
 .timeline-home__text {
- flex: 1 0 35%;
+ flex: 0 1 35%;
 }
 
 h2 {

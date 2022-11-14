@@ -39,14 +39,14 @@
     margin: 0 auto;
     padding-top: 135px;
     gap: 50px;
-    @media (min-width: 1170px) {
+    @media (min-width: 1210px) {
         flex-flow: row nowrap;
         gap: 127px;
 
     }
 }
 .fourgens-home__text {
-    flex: 1 0 48%;
+    flex: 0 1 48%;
 }
 
 .fourgens-home__media {

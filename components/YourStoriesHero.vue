@@ -35,7 +35,7 @@
 }
 
 .hero-yourstories__title {
-    flex: 0 0 44%;
+    flex: 1 0 44%;
     font-style: italic;
     font-size:  4.5rem;
     line-height: 1.19;

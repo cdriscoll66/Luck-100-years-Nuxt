@@ -69,6 +69,7 @@ const props = defineProps({
     align-items: flex-start;
     @media (min-width: 768px) {
       flex-flow: row nowrap;
+      gap: 20px;
     }
 }
 
