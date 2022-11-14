@@ -19,7 +19,7 @@ const emit = defineEmits(['start']);
   </div>
   </template>
 
-<style scoped>
+<style scoped lang="scss">
 
   .intro {
     background-image: url('/images/timeline-intro-bg.jpg');
@@ -34,16 +34,22 @@ const emit = defineEmits(['start']);
     outline-offset: -20px;
   }
   .intro-content {
-    /* width: 60vw; */
     margin: 20vh auto 0;
     color: var(--color-off-white);
+    max-width: calc(100vw - 60px);
+    img {
+      width: 100%;
+    }
 
   }
   .intro-content p {
     font-family: 'GothamHTF', sans-serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.166667;
+    @media (min-width: 768px) {
+    font-size: 1.5rem;
+   }
   }
   
   .intro-content h1 {
@@ -51,7 +57,10 @@ const emit = defineEmits(['start']);
    font-family: 'Sentinel', serif;
    font-weight: 200;
    font-style: italic;
-   font-size: 5.25rem;
+   font-size: 3rem;
+   @media (min-width: 768px) {
+    font-size: 5.25rem;
+   }
   }
 
   .intro-content button {

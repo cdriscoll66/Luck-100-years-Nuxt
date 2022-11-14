@@ -79,6 +79,10 @@ const props = defineProps({
 
 .textmediacard__media {
     flex: 1 0 50%;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 </style>

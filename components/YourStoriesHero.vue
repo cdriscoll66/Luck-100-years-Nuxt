@@ -23,7 +23,10 @@
 
 <style lang="scss" scoped>
 .hero-yourstories {
+    padding: 100px 30px 30px;
+    @media (min-width: 768px) {
     padding: 100px 100px 30px;
+    }
 }
 
 .hero-yourstories__content {

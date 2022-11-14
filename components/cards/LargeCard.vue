@@ -60,9 +60,12 @@ const bgImage = computed(() => {
   height: auto;
   background-size: cover;
   background-position: center;
-  padding: 35% 72px 72px 72px;
+  padding: 35% 50px 50px;
   color: var(--color-white);
   box-shadow: 10px 14px 44px rgba(0, 0, 0, 0.15);
+  @media (min-width: 768px) {
+  padding: 35% 72px 72px 72px;
+  }
 }
 
 .eyebrow {

@@ -19,6 +19,16 @@ const props = defineProps({
 </template>
 
 <style scoped lang="scss">
+
+.audio {
+  margin: 20px;
+audio {
+    width: 100%;
+  }
+}
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
+
 .audio {
   margin: 20px;
   box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.5);
@@ -31,7 +41,7 @@ const props = defineProps({
 audio::-webkit-media-controls-panel {
   background-color: #fff;
 }
-
+} */
 
 /* 
 audio::-webkit-media-controls-mute-button
