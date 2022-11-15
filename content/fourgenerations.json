@@ -10,62 +10,62 @@
       "Charles Luck Jr. was equal parts caring and visionary, combining his exceptional gift at building relationships with his keen intellect and sharp business acumen to build what has become the largest and fastest-growing family-owned aggregates company in the United States."
     ],
     "bio_blocks": [
-        { 
-            "image": "cl4-1.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": true,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-2.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": false,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-3.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": true,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-4.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": false,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-5.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": true,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-6.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": false,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-7.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": true,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        },
-        { 
-            "image": "cl4-8.jpg",
-            "alt": "Charles Luck doing something",
-            "portrait": true,
-            "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-            "audio": "rhapsody.mp3"
-        }
+      {
+        "image": "cl4-1.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-2.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-3.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-4.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-5.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-6.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-7.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-8.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      }
     ]
   },
   {
@@ -76,8 +76,66 @@
     "link": "charles-luck-iii",
     "intro": [
       "Charles Samuel Luck III, the second generation leader of Luck Companies, was born in 1933. He grew up in the family business, bringing water to associates working in the Boscobel Quarry. After graduating from Virginia Military Institute and proudly serving in the United States Air Force, he joined the company in 1957. He became president in 1965.",
-      "A true pioneer in the aggregates industry and a kind and courageous leader, he led Luck Companies through three decades of expansion and innovation, laying the groundwork for the future of the people-focused, innovative organization he loved. He began the industry-leading associate training programs and fastidious commitment to quarry aesthetics that Luck Companies is known for today. Under his leadership, the company launched a comprehensive associate safety program, expanded into Northern Virginia, automated our plants, computerized our ticketing systems and established an aviation department.",       
+      "A true pioneer in the aggregates industry and a kind and courageous leader, he led Luck Companies through three decades of expansion and innovation, laying the groundwork for the future of the people-focused, innovative organization he loved. He began the industry-leading associate training programs and fastidious commitment to quarry aesthetics that Luck Companies is known for today. Under his leadership, the company launched a comprehensive associate safety program, expanded into Northern Virginia, automated our plants, computerized our ticketing systems and established an aviation department.",
       "Charles Samuel Luck III lived and led by the Golden Rule, inspiring associates to care for each other, their communities and to take the company to the next level together."
+    ],
+    "bio_blocks": [
+      {
+        "image": "cl4-1.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-2.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-3.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-4.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-5.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-6.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-7.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-8.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      }
     ]
   },
   {
@@ -85,12 +143,70 @@
     "title": "Charles Luck IV.",
     "image": "profile.png",
     "quote": "Igniting Human Potential",
-    "link": "charles-luck-iv", 
+    "link": "charles-luck-iv",
     "intro": [
       "Charles “Charlie” Samuel Luck IV, President and CEO, is the third-generation leader of Luck Companies. In his youth, Charlie spent summers as a 12 year old sweeping shop floors, helping (and getting in the way) rebuilding engines and looking up to the men in the shop facility in Manakin Virginia. Traveling with his Dad to operations around the state solidified their relationship and ensured the philosophies of his father and grandfather (Pop Pop) were imbedded deeply within Charlie's head and heart. He formally joined the company in 1980 as a summer trainee, while attending Virginia Military Institute. After graduating in 1983 with a Civil Engineering degree, Charlie competed on the NASCAR circuit for four years before returning to the company. ",
-      "Inspired by his father's and his grandfather's deep love for people, Charlie is responsible for establishing Luck Companies' Mission to Ignite Human Potential through Values-Based Leadership and positively impact the lives of others around the world. This philosophy has fueled two decades of significant and meaningful growth for people inside and outside of Luck Companies. Charlie is also the Founder of InnerWill, a nonprofit dedicated to Values-Based Leadership. ",       
-      "Under Charlie's leadership, the company has created six, five year strategic planning periods spanning from 2000 to 2025. These strategic planning windows have been instrumental in the growth and evolution of the company and recently culminated in expanding into new markets and communities within Virginia, North Carolina, South Carolina and Georgia, with new locations across the Southeast, including the largest acquisition in company history.", 
+      "Inspired by his father's and his grandfather's deep love for people, Charlie is responsible for establishing Luck Companies' Mission to Ignite Human Potential through Values-Based Leadership and positively impact the lives of others around the world. This philosophy has fueled two decades of significant and meaningful growth for people inside and outside of Luck Companies. Charlie is also the Founder of InnerWill, a nonprofit dedicated to Values-Based Leadership. ",
+      "Under Charlie's leadership, the company has created six, five year strategic planning periods spanning from 2000 to 2025. These strategic planning windows have been instrumental in the growth and evolution of the company and recently culminated in expanding into new markets and communities within Virginia, North Carolina, South Carolina and Georgia, with new locations across the Southeast, including the largest acquisition in company history.",
       "During his time as CEO, the company has been nationally recognized as a National leader for safety and environmental stewardship. The engagement and enablement of the associates has been recognized as being in the top 3 of companies around the World as a result of our 20 year focus on Igniting Human Potential through Values Based Leadership."
+    ],
+    "bio_blocks": [
+      {
+        "image": "cl4-1.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-2.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-3.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-4.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-5.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-6.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-7.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-8.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      }
     ]
   },
   {
@@ -100,9 +216,67 @@
     "quote": "Stone is Just the Start",
     "link": "richard-luck",
     "intro": [
-      "Richard Samuel Luck, the fourth generation of his family to join Luck Companies, grew up fascinated and by the business that he spent much of his life around. Following in the tradition of his father, grandfather, and great-grandfather, he graduated from Virginia Military Institute in 2012, earning his degree in Business and Economics with a minor in Leadership. After graduation, Richard joined Teach for America and served as a high school math teacher in Charlotte, NC. He then founded a nonprofit focused on low-income entrepreneurship in Richmond, VA. In 2016, he brought his passion for service to Luck Companies, becoming the fourth generation of his family to join the company.", 
-      "Richard's first role was part human resources, part InnerWill (the Values-Based Leadership nonprofit), giving him a strong foundation in Luck Companies' mission to ignite human potential and positively impact the lives of others around the world. He then spent six years in various roles in operations and sales, from Northern Virginia to Atlanta. He is currently Vice President of the Central South region.",     
+      "Richard Samuel Luck, the fourth generation of his family to join Luck Companies, grew up fascinated and by the business that he spent much of his life around. Following in the tradition of his father, grandfather, and great-grandfather, he graduated from Virginia Military Institute in 2012, earning his degree in Business and Economics with a minor in Leadership. After graduation, Richard joined Teach for America and served as a high school math teacher in Charlotte, NC. He then founded a nonprofit focused on low-income entrepreneurship in Richmond, VA. In 2016, he brought his passion for service to Luck Companies, becoming the fourth generation of his family to join the company.",
+      "Richard's first role was part human resources, part InnerWill (the Values-Based Leadership nonprofit), giving him a strong foundation in Luck Companies' mission to ignite human potential and positively impact the lives of others around the world. He then spent six years in various roles in operations and sales, from Northern Virginia to Atlanta. He is currently Vice President of the Central South region.",
       "Always drawn to his grandfather's vision of “We care,” and inspired by his dad's vision of igniting human potential, Richard believes the greatest impact he can have is supporting the people of Luck Companies. He is focused on developing a scalable company and culture where people come first and associates perform in roles that invigorate their purpose, passions and competencies."
-     ]
+    ],
+    "bio_blocks": [
+      {
+        "image": "cl4-1.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-2.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-3.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-4.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-5.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-6.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-7.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      },
+      {
+        "image": "cl4-8.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "rhapsody.mp3"
+      }
+    ]
   }
 ]
