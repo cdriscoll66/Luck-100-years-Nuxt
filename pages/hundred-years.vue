@@ -206,12 +206,8 @@ const hideCase = () => {
 }
 
 const dotSlide = (num: number) => {
-  if (state.activeSlide === null) {
-    showCase(num)
-  } else {
     hideCase()
     scrollToSlide(num)
-  }
 }
 
 const startTheShow = () => {
