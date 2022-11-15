@@ -243,6 +243,7 @@ const startTheShow = () => {
 
         <div
           v-for="(slide, index) in slides"
+          :id="`slide-${index}`"
           class="frame"
           :key="index"
           v-bind:style="zBind(index)"

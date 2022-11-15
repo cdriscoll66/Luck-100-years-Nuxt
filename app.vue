@@ -135,8 +135,12 @@ header {
   flex-flow: row nowrap;
   margin: 0 auto;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 42px 54px 0;
+}
+
+.logo a {
+  vertical-align: text-top;
 }
 
 nav {

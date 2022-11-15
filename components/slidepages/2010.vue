@@ -89,7 +89,7 @@
     text="Luck Stone takes ownership of Willow Oak Quarry in Kershaw, South Carolina, transforming it into Luck Stone’s Kershaw Plant. "
 /> 
 <BigMediaText
-    image="Kershaw Mobile Plant.jpg"
+    image="atlquarry.jpg"
     year="2018"
     title="Luck Stone completes largest acquisition in company history."
     text="Luck Stone acquires Stephens Industries in Atlanta, Georgia, an aggregate and construction & demolition recycling business. This is now known as our Atlanta-Stephens Plant."
