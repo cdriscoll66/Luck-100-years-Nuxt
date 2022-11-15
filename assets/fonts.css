@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Professor";
-    src: url("/fonts/professor.ttf") format("truetype");
+    src: url("/fonts/professor.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
