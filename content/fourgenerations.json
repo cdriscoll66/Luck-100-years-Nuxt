@@ -15,56 +15,56 @@
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 1.mp3"
       },
       {
         "image": "cl4-2.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 2.mp3"
       },
       {
         "image": "cl4-3.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 3.mp3"
       },
       {
         "image": "cl4-4.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 4.mp3"
       },
       {
         "image": "cl4-5.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 5.mp3"
       },
       {
         "image": "cl4-6.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 6.mp3"
       },
       {
         "image": "cl4-7.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 7.mp3"
       },
       {
         "image": "cl4-8.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C2 Photo 8.mp3"
       }
     ]
   },
@@ -81,60 +81,67 @@
     ],
     "bio_blocks": [
       {
-        "image": "cl4-1.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-2.jpg",
+        "image": "C3_1_Marthasize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C3 Photo 1.mp3"
       },
       {
-        "image": "cl4-3.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-4.jpg",
+        "image": "C3_2_Planesize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C3 Photo 2.mp3"
       },
       {
-        "image": "cl4-5.jpg",
+        "image": "C3_3_Immediate Familysize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C3 Photo 3.mp3"
       },
       {
-        "image": "cl4-6.jpg",
+        "image": "C3_4_Plantsize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C3 Photo 4.mp3"
       },
       {
-        "image": "cl4-7.jpg",
+        "image": "C3_5_Associatesize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C3 Photo 5.mp3"
       },
       {
-        "image": "cl4-8.jpg",
+        "image": "C3_6_Worksize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C3 Photo 6.mp3"
+      },
+      {
+        "image": "C3_7_Full Familysize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C3 Photo 7.mp3"
+      },
+      {
+        "image": "C3_8_Truesize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C3 Photo 8.mp3"
+      },
+      {
+        "image": "C3_9_VMIsize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C3 Photo 9.mp3"
       }
     ]
   },
@@ -152,60 +159,74 @@
     ],
     "bio_blocks": [
       {
-        "image": "cl4-1.jpg",
+        "image": "C4_1_Huntingsize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C4 Photo 1.mp3"
       },
       {
-        "image": "cl4-2.jpg",
+        "image": "C4_2_Kids+Lisasize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C4 Photo 2.mp3"
       },
       {
-        "image": "cl4-3.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-4.jpg",
+        "image": "C4_3_At Worksize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C4 Photo 3.mp3"
       },
       {
-        "image": "cl4-5.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-6.jpg",
+        "image": "C4_4_Grandkidssize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C4 Photo 4.mp3"
       },
       {
-        "image": "cl4-7.jpg",
+        "image": "C4_5_Young Racingsize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C4 Photo 5.mp3"
+      },
+      {
+        "image": "C4_6_Familysize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C4 Photo 6.mp3"
+      },
+      {
+        "image": "C4_7_Immediate Familysize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C4 Photo 7.mp3"
       },
       {
-        "image": "cl4-8.jpg",
+        "image": "C4_8_Lisasize-edit-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "C4 Photo 8.mp3"
+      },
+      {
+        "image": "C4_9_Car in Quarrysize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C4 Photo 9.mp3"
+      },
+      {
+        "image": "C4_10_VMIsize-edit-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "C4 Photo 10.mp3"
       }
     ]
   },
@@ -222,60 +243,67 @@
     ],
     "bio_blocks": [
       {
-        "image": "cl4-1.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-2.jpg",
+        "image": "RSL_1_C4 Quarry-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "RSL Photo 1.mp3"
       },
       {
-        "image": "cl4-3.jpg",
+        "image": "RSL_2_Young-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "RSL Photo 2.mp3"
       },
       {
-        "image": "cl4-4.jpg",
+        "image": "RSL_3_Lisa-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": true,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "RSL Photo 3.mp3"
+      },
+      {
+        "image": "RSL_4_Leesburg-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "RSL Photo 4.mp3"
       },
       {
-        "image": "cl4-5.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-6.jpg",
+        "image": "RSL_5_Jenna-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": false,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "RSL Photo 5.mp3"
       },
       {
-        "image": "cl4-7.jpg",
+        "image": "RSL_6_Sisters + Kids-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "RSL Photo 6.mp3"
+      },
+      {
+        "image": "RSL_7_VMI-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "RSL Photo 7.mp3"
+      },
+      {
+        "image": "RSL_8_3 Generations-FILTER-ADDED.jpg",
+        "alt": "Charles Luck doing something",
+        "portrait": false,
+        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
+        "audio": "RSL Photo 8.mp3"
+      },
+      {
+        "image": "RSL_9_Family-FILTER-ADDED.jpg",
         "alt": "Charles Luck doing something",
         "portrait": true,
         "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
-      },
-      {
-        "image": "cl4-8.jpg",
-        "alt": "Charles Luck doing something",
-        "portrait": true,
-        "caption": "Image caption. Should probably have instructions or indication that the player below will play accompanying audio.",
-        "audio": "rhapsody.mp3"
+        "audio": "RSL Photo 9.mp3"
       }
     ]
   }
