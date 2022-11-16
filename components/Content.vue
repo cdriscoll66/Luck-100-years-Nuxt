@@ -61,13 +61,13 @@ const prevSlide: any = computed(() => {
     url('/images/rock-gold-light4.png'), url('/images/topography-br.png');
   background-size: 50%, 100%, 100%, 30%, 100%, 100%, 45%;
   background-repeat: no-repeat;
-  background-position: top right, 0 70px, 100% 460px, 0 1527px, 100% 1840px,
-    0 2970px, bottom right;
+  background-position: top right, 0 1.56%, 100% 23.01%, 0 50.5%, 100% 60.36%, 0 92.16%, bottom right; 
   outline: 1px solid var(--color-gold-light);
   outline-offset: -20px;
   @media (min-width: 1120px) {
     padding: 100px 100px 200px;
   }
+
 }
 
 .timeline-button {
