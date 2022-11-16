@@ -286,7 +286,7 @@ const startTheShow = () => {
   </main>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 * {
   box-sizing: border-box;
 }
@@ -424,9 +424,13 @@ const startTheShow = () => {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100%;  
   display: flex;
   justify-content: center;
   align-items: center;
+  img {
+    margin: 0 auto;
+    max-width: calc(100vw - 100px);
+  }
 }
 </style>
